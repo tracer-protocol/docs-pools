@@ -50,8 +50,7 @@
 
 ## 💾 Developer resources
 
-* [Development Guide](developer-resources/development-guide/README.md)
-  * [Integrations & Partnerships](developer-resources/development-guide/integrations-and-partnerships.md)
+* [Development Guide](developer-resources/development-guide.md)
 * [SDK](developer-resources/sdk.md)
 * [API](https://api.tracer.finance/docs/#/)
 * [Subgraph](https://thegraph.com/hosted-service/subgraph/scaredibis/tracer-pools-v2-arbitrum-one)
