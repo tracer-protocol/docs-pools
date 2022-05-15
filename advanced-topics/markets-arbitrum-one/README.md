@@ -12,6 +12,14 @@ description: Sorted by Category
 [stables.md](stables.md)
 {% endcontent-ref %}
 
+{% content-ref url="indices.md" %}
+[indices.md](indices.md)
+{% endcontent-ref %}
+
+{% content-ref url="commodities.md" %}
+[commodities.md](commodities.md)
+{% endcontent-ref %}
+
 {% content-ref url="forex.md" %}
 [forex.md](forex.md)
 {% endcontent-ref %}
