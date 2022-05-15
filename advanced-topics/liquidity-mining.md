@@ -26,8 +26,8 @@ Primary Markets
 
 | Market             | TCR Emissions |
 | ------------------ | ------------- |
-| **3-ETH/USD+USDC** | 60,000        |
-| **3-BTC/USD+USDC** | 60,000        |
+| **3-ETH/USD+USDC** | 120,000       |
+| **3-BTC/USD+USDC** | 120,000       |
 
 
 
