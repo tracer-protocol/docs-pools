@@ -32,11 +32,13 @@
 * **Mint**: To create a new Pool Token by depositing Settlement Asset to a Market.&#x20;
 * **Mint Fee**: A fee charged to mint a Pool Token (see _Mint)._ The fee is distributed back to the side of the Market the user is minting to. __ May differ between Markets but not within Markets.
 * **Management Fee**: A fee charged at each Rebalance. Denoted in annualised terms. Paid to the Fee Receiver.
-* **Oracle:** the EOA providing raw data. ****&#x20;
+* **Oracle:** The EOA providing raw data. ****&#x20;
+* **Period**: The time between Rebalances.
 * **Perpetual Pool**: The contract that holds funds and keeps account of long and short ownership. Mints Pool Tokens when funds are added and burns Pool Tokens when funds are redeemed.
 * **Pool**: See _"Perpetual Pool"._
-* **Pool Token**: A transferable ERC-20 token representing ownership of either long or short funds in a Market (_also known as a_ _Leveraged Token_).&#x20;
+* **Pool Keeper**: Various economically incentivised actions taken by third parties to support the functioning of a Market.
 * **Pool Owner**: The Address who owns the Market. They can set contracts to perform pool upkeep, autoclaims, and invariant checks. They can also set the Primary Fee Receiver along with the secondary fee split percentage.
+* **Pool Token**: A transferable ERC-20 token representing ownership of either long or short funds in a Market (_also known as a_ _Leveraged Token_).&#x20;
 * **Price Feed**: S_ee "Index Feed"_
 * **Primary Fee Receiver**: The EOA receiving part of the Management Fees, 100% of the fees if a Secondary Fee Receiver is not defined.
 * **Queued Trade**: A Mint or Burn that is pending processing, i.e. a trade that has been Committed but the Commit has not been executed.
@@ -57,6 +59,5 @@
 * **Tracer Indices**: Wrapper products that manipulate or standardise oracle data, e.g. SMA, and Weighted.
 * **Transfer**: When funds are debited from a party and credited to their counterparty.&#x20;
 * **TVL**: See _"Total Value Locked"_.
-* **Pool Keeper**: Various economically incentivised actions taken by third parties to support the functioning of a Market.
 * **Volatility Decay**: The loss incurred by a Short or Long Token holder due to frequent directional changes in the Index Price.
 * **Wrapper**: A contract that a Pool Keeper can interface with. Transforms raw data provided by oracles.&#x20;
