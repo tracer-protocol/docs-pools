@@ -37,7 +37,7 @@
 * **Pool Owner**: The Address who deployed the Market.
 * **Price Feed**: S_ee "Index Feed"_
 * **Queued Trade**: A Mint or Burn that is pending processing.
-* **Rebalance**: The transfer of funds and execution of Commits.&#x20;
+* **Rebalance**: The Transfer of funds and execution of Commits.&#x20;
 * **Secondary Market**: Any market (DEX, CEX, or OTC) where Long or Short Tokens can be bought & sold with the exception of the Primary Market.
 * **Settlement**: When one side of a Pool makes a payment to its counterpool to settle the Period's Agreement.&#x20;
 * **Settlement Asset**: The funds used to settle a Pool Agreement. The Settlement Assets are held in the Market's Perpetual Pool contract to back shares (Pool tokens). Settlement Asset can be any non-rebasing and non-deflationary ERC-20 token, e.g. DAI or wstETH.&#x20;
