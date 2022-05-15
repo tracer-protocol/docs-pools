@@ -6,7 +6,7 @@
 
 ### Tokens
 
-**Long** and **short** tokens are shares. They represent ownership of funds in a Perpetual Pool. Users can get tokens by adding funds to the Pool or relinquish tokens to get funds back from the Pool. &#x20;
+**Long** and **short** tokens are shares. They represent ownership of funds in a Perpetual Pool Market. Users can get tokens by adding funds to the Market or relinquish tokens to get funds back from the Market. &#x20;
 
 ### Pools&#x20;
 
@@ -22,7 +22,7 @@ Perpetual Pools V2 use a [sigmoid ](./#leverage)function to calculate this perce
 
 An adverse price movement for long tokens is a negative change (%) since the beginning of the period and for short tokens a positive change (%).&#x20;
 
-The counterparty takes payment at the end of a period, after which users are free to enter and exit the contract. &#x20;
+The counterparty takes payment at the end of a period (at Rebalance), after which users are free to enter and exit the contract. &#x20;
 
 ## V2
 
@@ -56,13 +56,9 @@ $$
 
 where $$f$$ is total funds belonging to transferring party.
 
-### Period&#x20;
-
-The default period is one hour.&#x20;
-
 ### Transfer
 
-Funds are transferred at the end of every period, at which time the Pool updates its internal account to reflect the payment made by a party to their counterparty.&#x20;
+Funds are transferred at the end of every period at which time the Pool updates its internal account to reflect the payment made by a party to their counterparty. This event is known as the Rebalance.
 
 ### Entry and Exit
 
@@ -78,9 +74,9 @@ Users can enter or exit (or switch their position in) a Pool immediately after t
 
 The underlying asset's price is reported by an oracle at the end of a period. This response passes through a 'wrapper' so it can be used as a valid input by the leverage function.&#x20;
 
-Default pricing is an 8-period simple moving average (SMA).&#x20;
+#### SMA Pricing
 
-The wrapper stores the previous seven period's prices to add to the new response. The average of their sum is given as $$P_1$$.&#x20;
+The default SMA pricing scheme is an 8-period simple moving average (SMA). The wrapper stores the previous seven period's prices to add to the new response. The average of their sum is given as $$P_1$$.&#x20;
 
 {% hint style="warning" %}
 Pricing has changed from V1. Read the justification for this change on [Radar](https://tracer.finance/radar/v2-simulations/). Note that, with permission-less deployment, it is still possible to replicate the V1 contract specs.
@@ -94,15 +90,13 @@ The transfer is initiated by a _keeper_ at the end of a period. For details, see
 
 A Pool 'mints' new tokens when a user enters and 'burns' existing tokens when they exit. It does this based on the commitments made by users prior to a period's front-running interval. This interval prevents users from taking advantage of the [Pricing](./#pricing).
 
-The default front-running interval is 8 periods.&#x20;
-
 {% hint style="warning" %}
 The front-running interval has changed from V1. Note that, with permission-less deployment, it is still possible to replicate the V1 contract specs.
 {% endhint %}
 
 ### Commits
 
-Users commit to **enter**, **exit**, or **flip** a position in the Pool by adding funds or relinquishing tokens.&#x20;
+Users commit to **mint** (enter), **burn** (exit), or **flip** a position in the Pool by adding funds or relinquishing tokens.&#x20;
 
 The Pool keeps an account of the funds parties commit to add at the end of the period. After the transfer, long and short tokens are 'batch' minted and the funds are added to the Pool. &#x20;
 
