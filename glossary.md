@@ -21,6 +21,7 @@
 * **Front Running Interval**: The minimum time that must elapse before a commitment is executed. Trading on a Secondary Market enables instant liquidity for Pool Tokens.
 * **Index Feed**: An oracle wrapper that outputs the Index Price to be used for Rebalancing. Tracer uses standardised proprietary index feeds to ensure uniformity of data.&#x20;
 * **Index Price**: The current price, or value, of the tracked market, accounting for any Data Manipulations. This is the value used in calculations at Rebalance.&#x20;
+* **Interval Period**: See _"Period"_.
 * **Leverage:** A positive integer used by the Leverage Function to amplify the transfer amount relative to the price change, e.g. 3.
 * **Leverage Function:** A sigmoidal function used to calculate the amount to transfer.
 * **Leveraged Token**: _See "Pool Token"_.
