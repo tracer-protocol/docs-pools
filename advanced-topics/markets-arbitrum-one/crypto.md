@@ -29,8 +29,8 @@ __:link: _Open in pools.tracer.finance_
 **Parameters**
 
 * Leverage (sigmoid): `3`
-* Rebalance frequency: `1 hour`
-* Front-running interval: `8 hours`
+* Rebalance frequency: `8 hours`
+* Front-running interval: `x minutes`
 
 **Fees**
 
@@ -98,8 +98,8 @@ __:link: _Open in pools.tracer.finance_
 **Parameters**
 
 * Leverage (sigmoid): `3`
-* Rebalance frequency: `1 hour`
-* Front-running interval: `8 hours`
+* Rebalance frequency: `8 hour`
+* Front-running interval: `x minutes`
 
 **Fees**
 
@@ -146,5 +146,5 @@ _Coming soon!_
 
 {% hint style="info" %}
 **Missing a market?**\
-****You can use the Tracer API to query all existing markets [_(see API)_](broken-reference). **** Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
+****You can use the Tracer API to query all existing markets [_(see API)_](https://api.tracer.finance/docs/#/). **** Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
 {% endhint %}
