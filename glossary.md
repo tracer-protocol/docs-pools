@@ -1,6 +1,6 @@
 # 🔤 Glossary
 
-* **Agreement**: The periodic transfer of funds between a Pool's parties.&#x20;
+* **Agreement**: The periodic transfer of funds between Market's parties.&#x20;
 * **Address**: A 42 character alphanumeric string that identifies an Ethereum account.&#x20;
 * **Annual Percentage Rate (APR)**: The rate of yearly earnings without compounding.
 * **Annual Percentage Yield (APY)**: The rate of yearly compounded earnings.
