@@ -23,31 +23,37 @@ description: Sorted by Category
 {% hint style="info" %}
 **About Naming Conventions**
 
-**Pools** are named using the format:
+****
+
+_We recommend following the naming format below when possible:_
+
+__
+
+**Markets** are named using the format:
 
 &#x20;_`LLL-AAA/BBB+CCC`_
 
 where:\
-_`LLL` is the market's`LEVERAGE` (a positive integer)_\
+_`LLL` is the market's`LEVERAGE` (a positive integer without leading zeros)_\
 _`AAA` is the `BASE` currency/token_\
 _`BBB` is the `QUOTE` currency/token_\
 _`CCC` is the `SETTLEMENT` currency/token_
 
-For example, a 3p leverage Pool for the market pair BTC/USD, settled in DAI, would be referred to as:
+For example, a 3 leverage market for the market pair BTC/USD, settled in DAI, would be referred to as:
 
 `3-BTC/USD+DAI`
 
 ``
 
-**Pools tokens** are named using the format:
+**Pool tokens** are named using the format:
 
-&#x20;_`SLLLAAABBBCCCX0`_
+&#x20;_`SLLLAAABBBCCCXX`_
 
 where:
 
 _`S` is the market's `SIDE` (L - long or S - short)_
 
-_`LLL` is the market's`LEVERAGE` (a positive integer_ <1000_)_
+_`LLL` is the market's`LEVERAGE` (a positive integer_ with leading zeroes_)_
 
 _`AAA` is the `BASE` currency/token_
 
@@ -55,13 +61,9 @@ _`BBB` is the `QUOTE` currency/token_&#x20;
 
 _`CCC` is the `SETTLEMENT` currency/token_
 
-_`X0` is the market's `DEPLOYMENT CODE`_
+_`XX` is the market's `DEPLOYMENT CODE`_
 
 For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD settled in DAI, would be referred to as:
 
-`S003BTCUSDDAIA0`
-
-``
-
-Confused? You can view the full rules for naming Pools and their tokens [here](../../factory/pools-factory.md). &#x20;
+`S003BTCUSDDAI00`
 {% endhint %}
