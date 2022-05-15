@@ -5,6 +5,7 @@
 * **Annual Percentage Rate (APR)**: The rate of yearly earnings without compounding.
 * **Annual Percentage Yield (APY)**: The rate of yearly compounded earnings.
 * **Autoclaim**: A functionality that automatically claims Pool Tokens to the Committer's wallet. Uses a keeper to achieve autoclaim and incurs additional gas costs compared to keeping Pool Tokens in Escrow.
+* **Balances**: Refers to Long Balance and Short Balance in aggregate.
 * **Burn**: To redeem a Pools token for the funds backing it (see _Settlement_).&#x20;
 * **Burn Fee**: A fee charged to burn a Pools token _(_see _Burn)_. The fee is distributed back to the side of the Market the user is burning from. May differ between Markets but not within Markets. Not applied to V2 launch Pools.
 * **Collateral**: _See "Settlement Asset"._
