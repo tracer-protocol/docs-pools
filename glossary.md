@@ -8,7 +8,7 @@
 * **Burn**: To redeem a Pools token for the funds backing it (see _Settlement_).&#x20;
 * **Burn Fee**: A fee charged to burn a Pools token _(_see _Burn)_. The fee is distributed back to the side of the Market the user is burning from. May differ between Markets but not within Markets. Not applied to V2 launch Pools.
 * **Collateral**: _See "Settlement Asset"._
-* **Commit**: Placing an order to enter, exit, or flip a position in a Pool.&#x20;
+* **Commit**: Placing an order to enter, exit, or flip a position in a Pool. Commits are processed at each Rebalance. If the time between a Commit and Rebalance is less than the Front Running Interval, the processing of the Commit is postponed until the next Rebalance.
 * **Counterpool**: the other side of the Perpetual Pool, e.g. the Short Pool is the counterpool of the Long Pool
 * **Data Feed**: See _"Index Feed"_
 * **Data Manipulations**: any change applied to the original oracle data before it is applied to a Perpetual Pool Market, e.g. application of a Simple Moving Average to the ETH/USD oracle feed is a Data Manipulation.
@@ -18,7 +18,7 @@
 * **EOA**: Externally owned account.&#x20;
 * **Escrow**: A database entry that tracks the ownership of Market positions that are not claimed. Saves gas using an internal record of owners rather than distributing a Pool Token. To receive the transferable Pool Token, the tokens must be claimed from Escrow.
 * **Fee Receiver**: The EOAs receiving Management Fees from the market. There may be two fee receivers, a Primary Fee Receiver and a Secondary Fee Receiver, who split the fees.
-* **Front Running Interval**: Time between Rebalances. Commits are processed at the end of the Front Running Interval. Trading on a Secondary Market enables instant liquidity for Pool Tokens.
+* **Front Running Interval**: The minimum time that must elapse before a commitment is executed. Trading on a Secondary Market enables instant liquidity for Pool Tokens.
 * **Index Feed**: An oracle wrapper that outputs the Index Price to be used for Rebalancing. Tracer uses standardised proprietary index feeds to ensure uniformity of data.&#x20;
 * **Index Price**: The current price, or value, of the tracked market, accounting for any Data Manipulations. This is the value used in calculations at Rebalance.&#x20;
 * **Leverage:** A positive integer used by the Leverage Function to amplify the transfer amount relative to the price change, e.g. 3.
