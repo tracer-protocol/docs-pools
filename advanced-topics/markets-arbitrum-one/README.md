@@ -55,7 +55,7 @@ For example, a 3 leverage market for the market pair BTC/USD, settled in DAI, wo
 
 **Pool tokens** are named using the format:
 
-&#x20;_`SLLLAAABBBCCCXX`_
+&#x20;_`SLLLAAABBBCCC`_
 
 where:
 
@@ -69,9 +69,7 @@ _`BBB` is the `QUOTE` currency/token_&#x20;
 
 _`CCC` is the `SETTLEMENT` currency/token_
 
-_`XX` is the market's `DEPLOYMENT CODE`_
-
 For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD settled in DAI, would be referred to as:
 
-`S003BTCUSDDAI00`
+`S003BTCUSDDAI`
 {% endhint %}
