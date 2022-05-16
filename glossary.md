@@ -41,6 +41,7 @@
 * **Pool**: See _"Perpetual Pool"._
 * **Pool Keeper**: Various economically incentivised actions taken by third parties to support the functioning of a Market.
 * **Pool Owner**: The Address who owns the Market. They can set contracts to perform pool upkeep, autoclaims, and invariant checks. They can also set the Primary Fee Receiver along with the secondary fee split percentage.
+* **Pool Ticker**: See _"Symbol"_.
 * **Pool Token**: A transferable ERC-20 token representing ownership of either long or short funds in a Market (_also known as a_ _Leveraged Token_).&#x20;
 * **Price Feed**: S_ee "Index Feed"_
 * **Primary Fee Receiver**: The EOA receiving part of the Management Fees, 100% of the fees if a Secondary Fee Receiver is not defined.
