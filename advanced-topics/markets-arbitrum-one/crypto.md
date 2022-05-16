@@ -6,7 +6,7 @@
 
 <summary>3-BTC/USD+USDC</summary>
 
-__:link: _Open in pools.tracer.finance_
+:link: _Open in pools.tracer.finance_
 
 **Deployment** **Information**
 
@@ -33,7 +33,7 @@ __:link: _Open in pools.tracer.finance_
 * Long token
   * Symbol: `3L-BTC/USD+USDC`
   * Metamask Symbol: `3L-BTC+USDC`
-  * Token address: `0x17F99f2D5d7dC6957A0C18bfa49FBCf858199127`  [↗](https://arbiscan.io/address/0x17f99f2d5d7dc6957a0c18bfa49fbcf858199127)
+  * Token address: `0x17F99f2D5d7dC6957A0C18bfa49FBCf858199127` [↗](https://arbiscan.io/address/0x17f99f2d5d7dc6957a0c18bfa49fbcf858199127)
   * Observations: `N/A`
 
 <!---->
@@ -67,7 +67,7 @@ __:link: _Open in pools.tracer.finance_
 
 <summary>3-ETH/USD+USDC</summary>
 
-__:link: _Open in pools.tracer.finance_
+:link: _Open in pools.tracer.finance_
 
 **Deployment** **Information**
 
@@ -128,5 +128,5 @@ __:link: _Open in pools.tracer.finance_
 
 {% hint style="info" %}
 **Missing a market?**\
-****You can use the Tracer API to query all existing markets [_(see API)_](https://api.tracer.finance/docs/#/). **** Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
+You can use the Tracer API to query all existing markets [_(see API)_](https://api.tracer.finance/docs/#/). Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
 {% endhint %}
