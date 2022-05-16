@@ -46,6 +46,8 @@ __:link: _Open in pools.tracer.finance_
 
 * Rebalance frequency: `8 hours`
 * Front-running interval: `x minutes`
+* Short token staking farm: `0x`
+* Long token staking farm: `0x`
 
 **Secondary market (Balancer)**
 
