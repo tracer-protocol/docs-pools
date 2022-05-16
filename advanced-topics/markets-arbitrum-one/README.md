@@ -4,6 +4,10 @@ description: Sorted by Category
 
 # Markets (Arbitrum One)
 
+{% hint style="success" %}
+_A dynamic list of deployed Pools is available through the_ [_API_](https://api.tracer.finance/poolsv2/poolList?network=42161)_._
+{% endhint %}
+
 {% content-ref url="crypto.md" %}
 [crypto.md](crypto.md)
 {% endcontent-ref %}
