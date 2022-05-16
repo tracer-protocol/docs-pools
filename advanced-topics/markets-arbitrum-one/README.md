@@ -76,6 +76,8 @@ where:
 For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD settled in USDC, would be referred to as:
 
 &#x20;  `3S-BTC/USD+USDC`
+{% endhint %}
 
-The maximum recommended symbol length is 11 characters.
+{% hint style="warning" %}
+Please note that Metamask does not support symbols longer than 11 characters. Some of the Pools will have a "Metamask Symbol" which is passed to the users adding the token via our front-end. The _Metamask Symbol_ is given for applicable markets in brackets.
 {% endhint %}
