@@ -32,14 +32,14 @@ __:link: _Open in pools.tracer.finance_
 
 * Long token
   * Token name: `undefined`
-  * Token address: `0x` ↗
+  * Token address: `0x17F99f2D5d7dC6957A0C18bfa49FBCf858199127`  ↗
   * Observations: `N/A`
 
 <!---->
 
 * Short token
   * Token name: `undefined`
-  * Token address: `0x` ↗
+  * Token address: `0x02f9742f7CA51891d440084208c8e969D55b94A2` ↗
   * Observations: `N/A`
 
 **Pool Information**
@@ -90,14 +90,14 @@ __:link: _Open in pools.tracer.finance_
 
 * Long token
   * Token name: `undefined`
-  * Token address: `0x` ↗
+  * Token address: `0x989132f596Ff5F79fe3e52bbDdadACde6438bF06` ↗
   * Observations: `N/A`
 
 <!---->
 
 * Short token
   * Token name: `undefined`
-  * Token address: `0x` ↗
+  * Token address: `0xe0258E0b32cD3840ef29789bcDA9C2BF996e2A40` ↗
   * Observations: `N/A`
 
 **Pool Information**

@@ -77,5 +77,5 @@ For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD set
 
 &#x20;  `3S-BTC/USD+USDC`
 
-The maximum recommended symbol length is 15 characters.
+The maximum recommended symbol length is 11 characters.
 {% endhint %}
