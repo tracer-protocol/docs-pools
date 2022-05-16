@@ -32,7 +32,7 @@ __:link: _Open in pools.tracer.finance_
 
 * Long token
   * Symbol: `3L-BTC/USD+USDC`
-  * Metamask Symbol: `3L-ETH+USDC`
+  * Metamask Symbol: `3L-BTC+USDC`
   * Token address: `0x17F99f2D5d7dC6957A0C18bfa49FBCf858199127`  [↗](https://arbiscan.io/address/0x17f99f2d5d7dc6957a0c18bfa49fbcf858199127)
   * Observations: `N/A`
 
@@ -40,7 +40,7 @@ __:link: _Open in pools.tracer.finance_
 
 * Short token
   * Symbol: `3S-BTC/USD+USDC`
-  * Metamask Symbol: `3S-ETH+USDC`
+  * Metamask Symbol: `3S-BTC+USDC`
   * Token address: `0x02f9742f7CA51891d440084208c8e969D55b94A2` [↗](https://arbiscan.io/address/0x02f9742f7CA51891d440084208c8e969D55b94A2)
   * Observations: `N/A`
 
