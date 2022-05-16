@@ -31,6 +31,7 @@
 * **Long Pool**: The side of the Market that holds the Settlement Asset backing the Long Tokens.
 * **Long Token:** A share of a Market's Long Balance, represented by an ERC-20 token.&#x20;
 * **Market**: An instance of a Perpetual Pool, e.g. 3-ETH/USD+USDC. A single market is represented by a Long Token and a Short Token.&#x20;
+* **Metamask Symbol**: A shortened, max. 11 character, version of the Symbol that does not follow the LS-A/B+C -naming convention. Represents either a Short or a Long Token.
 * **Mint**: To create a new Pool Token by depositing Settlement Asset to a Market.&#x20;
 * **Mint Fee**: A fee charged to mint a Pool Token (see _Mint)._ The fee is distributed back to the side of the Market the user is minting to. __ May differ between Markets but not within Markets.
 * **Management Fee**: A fee charged at each Rebalance. Denoted in annualised terms. Paid to the Fee Receiver.
@@ -56,6 +57,7 @@
 * **Simple Moving Average**: $$\frac{\sum P_n}{n}$$, where $$P$$ is a periodic data point and $$n$$ is the number of periods. Useful for smoothing volatility and reducing Volatility Decay.
 * **Skew**: The ratio of Market funds belonging to long and short parties. Defined as `long_balance`_`/`_`short_balance`.
 * **SMA**: See _"Simple Moving Average"._
+* **Symbol**: The symbol representing the Short or Long Token. Follows the LS-A/B+C -naming convention outlined on the [Markets](advanced-topics/markets-arbitrum-one/) -page.
 * **Token**: A digital representation of ownership in ERC-20 form.
 * **Total Value Locked**: Depending on the context, the total value of the funds in a Market, the Long Balance, the Short Balance, or the Tracer protocol.&#x20;
 * **Tracer Indices**: Wrapper products that manipulate or standardise oracle data, e.g. SMA, and Weighted.
