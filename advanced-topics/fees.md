@@ -10,7 +10,7 @@ The mint fee is taken from the balance of the user at entry. The funds are added
 
 ## Management Fee
 
-The management fee is taken from the aggregate balance of the pools at the end of each period, i.e. at rebalance. The maximum yearly management fee can be set to \[0%;10%]. The management fee is split between a primary fee receiver and a secondary fee receiver. The primary fee receiver can be set by the owner of the pool contract.
+The management fee is taken from the aggregate balance of the pools at rebalance. The yearly management fee can be set to \[0%;10%]. The management fee is split between a primary fee receiver and a secondary fee receiver. The primary fee receiver can be set by the owner of the pool contract.
 
 {% hint style="info" %}
 Pools deployed by Tracer DAO specify the treasury as the fee recipient.

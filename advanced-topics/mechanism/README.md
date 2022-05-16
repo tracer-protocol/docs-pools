@@ -60,9 +60,11 @@ where $$f$$ is total funds belonging to transferring party.
 
 Funds are transferred at the end of every period at which time the Pool updates its internal account to reflect the payment made by a party to their counterparty. This event is known as the Rebalance.
 
+![](../../.gitbook/assets/PoolsTime.png)
+
 ### Entry and Exit
 
-Users can enter or exit (or switch their position in) a Pool immediately after the transfer. To be eligible for a given period, they must commit to the action before the [front-running interval](./#mint-and-burn) begins. &#x20;
+Users can enter (_mint_) or exit (_burn_) (or switch (_flip_) their position in) a Pool immediately after the transfer. To be eligible for a given period, they must commit to the action before the [front-running interval](./#mint-and-burn) begins. &#x20;
 
 ## Implementation
 

@@ -2,62 +2,62 @@
 
 ## Bitcoin
 
-
-
 <details>
 
 <summary>3-BTC/USD+USDC</summary>
 
 __:link: _Open in pools.tracer.finance_
 
-**Deployment** **information**
+**Deployment** **Information**
 
 * Deployed by: `0x`
 * Deployment date: `2022-05-16`
 * Transaction: `0x`
 
-**Inputs**
+**Pricing Data**
 
 * Price feed: `BTC/USD`
-* Pricing function: `8hr SMA`
+* Data manipulations: `8hr SMA`
+* Tracer Index Feed address: `0x`
+* Leverage (sigmoid): `3`
 
-**Settlement**
+**Settlement Asset**
 
 * Settlement asset: `USDC`
-* Contract address: `0x`
-
-**Parameters**
-
-* Leverage (sigmoid): `3`
-* Rebalance frequency: `8 hours`
-* Front-running interval: `x minutes`
+* Settlement asset address: `0x`
+* Settlement Ether oracle: `0x`
 
 **Fees**
 
 * Mint fee: `undefined%`
 * Management fee: `undefined% per annum`
 * Burn fee: `None`
+* Primary/Secondary Fee Split: `100%/0%`
+* Primary Fee Receiver: `0x`
+* Secondary Fee Receiver: `undefined`
 
-**Tokens**
+**Pool Tokens**
 
 * Long token
   * Token name: `undefined`
+  * Token address: `0x`
   * Observations: `N/A`
 
 <!---->
 
 * Short token
   * Token name: `undefined`
+  * Token address: `0x`
   * Observations: `N/A`
 
-**Contract Addresses**
+**Pool Information**
 
-* LeveragedPool: `0x`
-* PoolCommitter: `0x`
-* Oracle: `0x`
-* SettlementToken: `0x`
-* LongToken: `0x`
-* ShortToken: `0x`
+* Rebalance frequency: `8 hours`
+* Front-running interval: `x minutes`
+* Pool Owner address: `0x`
+* Leveraged Pool address: `0x`
+* Pool Committer address: `0x`
+* Invariant Check address: `0x`
 
 **Secondary market (Balancer)**
 
@@ -79,54 +79,56 @@ __:link: _Open in pools.tracer.finance_
 
 __:link: _Open in pools.tracer.finance_
 
-**Deployment** **information**
+**Deployment** **Information**
 
 * Deployed by: `0x`
 * Deployment date: `2022-05-16`
 * Transaction: `0x`
 
-**Inputs**
+**Pricing Data**
 
 * Price feed: `ETH/USD`
-* Pricing function: `8hr SMA`
+* Data manipulations: `8hr SMA`
+* Tracer Index Feed address: `0x`
+* Leverage (sigmoid): `3`
 
-**Settlement**
+**Settlement Asset**
 
 * Settlement asset: `USDC`
-* Contract address: `0x`
-
-**Parameters**
-
-* Leverage (sigmoid): `3`
-* Rebalance frequency: `8 hour`
-* Front-running interval: `x minutes`
+* Settlement asset address: `0x`
+* Settlement Ether oracle: `0x`
 
 **Fees**
 
 * Mint fee: `undefined%`
 * Management fee: `undefined% per annum`
 * Burn fee: `None`
+* Primary/Secondary Fee Split: `100%/0%`
+* Primary Fee Receiver: `0x`
+* Secondary Fee Receiver: `undefined`
 
-**Tokens**
+**Pool Tokens**
 
 * Long token
   * Token name: `undefined`
+  * Token address: `0x`
   * Observations: `N/A`
 
 <!---->
 
 * Short token
   * Token name: `undefined`
+  * Token address: `0x`
   * Observations: `N/A`
 
-**Contract Addresses**
+**Pool Information**
 
-* LeveragedPool: `0x`
-* PoolCommitter: `0x`
-* Oracle: `0x`
-* SettlementToken: `0x`
-* LongToken: `0x`
-* ShortToken: `0x`
+* Rebalance frequency: `8 hour`
+* Front-running interval: `x minutes`
+* Pool Owner address: `0x`
+* Leveraged Pool address: `0x`
+* Pool Committer address: `0x`
+* Invariant Check address: `0x`
 
 **Secondary market (Balancer)**
 
