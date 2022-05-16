@@ -21,3 +21,5 @@ Please find all information pertaining to Perpetual Pools Markets on the [Market
 **AutoClaim**: `0xf17b4f778f4314B34fa2E9aE96971A79DC8C963C` [↗](https://arbiscan.io/address/0xf17b4f778f4314b34fa2e9ae96971a79dc8c963c)****
 
 **KeeperRewards**: `0x81A302AEe2635511258164e4ECd50bA5Ff7258C1` [↗](https://arbiscan.io/address/0x81a302aee2635511258164e4ecd50ba5ff7258c1)
+
+**Deployer**: `0xfb59B91646cd0890F3E5343384FEb746989B66C7` [↗](https://arbiscan.io/address/0xfb59b91646cd0890f3e5343384feb746989b66c7)
