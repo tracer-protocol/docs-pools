@@ -53,7 +53,7 @@
 * [Development Guide](developer-resources/development-guide.md)
 * [SDK](developer-resources/sdk.md)
 * [API](https://api.tracer.finance/docs/#/)
-* [Subgraph](https://thegraph.com/hosted-service/subgraph/scaredibis/tracer-pools-v2-arbitrum-one)
+* [Subgraph](https://thegraph.com/hosted-service/subgraph/tracer-protocol/perpetual-pools-v2-arbitrum-one)
 * [GitHub](https://github.com/tracer-protocol/perpetual-pools-contracts)
 * [Bug Reporting](https://app.gitbook.com/s/bQ0NkgDTHoDTt0kxcfIw/security/bug-bounties)
 
