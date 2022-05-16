@@ -124,7 +124,7 @@ __:link: _Open in pools.tracer.finance_
 
 ## Market Cap
 
-_Coming soon!_
+👷‍♀️ _Coming soon!_
 
 {% hint style="info" %}
 **Missing a market?**\
