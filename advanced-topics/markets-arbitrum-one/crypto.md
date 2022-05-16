@@ -10,31 +10,23 @@ __:link: _Open in pools.tracer.finance_
 
 **Deployment** **Information**
 
-* Deployed by: `0x` ↗
 * Deployment date: `2022-05-16`
-* Transaction: `0x` ↗
 
 **Pricing Data**
 
 * Price feed: `BTC/USD`
 * Data manipulations: `8hr SMA`
-* Tracer Index Feed address: `0x` ↗
 * Leverage (sigmoid): `3`
 
 **Settlement Asset**
 
 * Settlement asset: `USDC`
-* Settlement asset address: `0x` ↗
-* Settlement Ether oracle: `0x` ↗
 
 **Fees**
 
 * Mint fee: `undefined%`
 * Management fee: `undefined% per annum`
 * Burn fee: `None`
-* Primary/Secondary Fee Split: `100%/0%`
-* Primary Fee Receiver: `0x` ↗
-* Secondary Fee Receiver: `undefined`
 
 **Pool Tokens**
 
@@ -54,16 +46,10 @@ __:link: _Open in pools.tracer.finance_
 
 * Rebalance frequency: `8 hours`
 * Front-running interval: `x minutes`
-* Pool Owner address: `0x` ↗
-* Leveraged Pool address: `0x` ↗
-* Pool Committer address: `0x` ↗
-* Invariant Check address: `0x` ↗
 
 **Secondary market (Balancer)**
 
 * Pool address: `0x` ↗
-* Balancer Pool token: `0x` ↗
-* Balancer LP Farm Contract: `0x` ↗
 
 **Notes**
 
@@ -81,9 +67,7 @@ __:link: _Open in pools.tracer.finance_
 
 **Deployment** **Information**
 
-* Deployed by: `0x` ↗
 * Deployment date: `2022-05-16`
-* Transaction: `0x` ↗
 
 **Pricing Data**
 
@@ -95,17 +79,12 @@ __:link: _Open in pools.tracer.finance_
 **Settlement Asset**
 
 * Settlement asset: `USDC`
-* Settlement asset address: `0x` ↗
-* Settlement Ether oracle: `0x` ↗
 
 **Fees**
 
 * Mint fee: `undefined%`
 * Management fee: `undefined% per annum`
 * Burn fee: `None`
-* Primary/Secondary Fee Split: `100%/0%`
-* Primary Fee Receiver: `0x` ↗
-* Secondary Fee Receiver: `undefined`
 
 **Pool Tokens**
 
@@ -125,16 +104,10 @@ __:link: _Open in pools.tracer.finance_
 
 * Rebalance frequency: `8 hour`
 * Front-running interval: `x minutes`
-* Pool Owner address: `0x` ↗
-* Leveraged Pool address: `0x`↗
-* Pool Committer address: `0x` ↗
-* Invariant Check address: `0x` ↗
 
 **Secondary market (Balancer)**
 
 * Pool address: `0x` ↗
-* Balancer Pool token: `0x` ↗
-* Balancer LP Farm Contract: `0x` ↗
 
 **Notes**
 
