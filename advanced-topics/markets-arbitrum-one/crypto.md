@@ -46,8 +46,8 @@ __:link: _Open in pools.tracer.finance_
 
 **Pool Information**
 
-* Rebalance frequency: `8 hours`
-* Front-running interval: `x minutes`
+* Rebalance frequency: `1 hour`
+* Front-running interval: `8 hours`
 * Long token staking farm: `0xE211c6a34a6b04Df2D5fBCf3E66Fd57b9eD76e0d` [↗](https://arbiscan.io/address/0xe211c6a34a6b04df2d5fbcf3e66fd57b9ed76e0d)
 * Short token staking farm: `0x50041Fe576cEC7502eA97cE33627856299011Eb1` [↗](https://arbiscan.io/address/0x50041Fe576cEC7502eA97cE33627856299011Eb1)
 
@@ -107,8 +107,8 @@ __:link: _Open in pools.tracer.finance_
 
 **Pool Information**
 
-* Rebalance frequency: `8 hour`
-* Front-running interval: `x minutes`
+* Rebalance frequency: `1 hour`
+* Front-running interval: `8 hours`
 * Long token staking farm: `0xbF3E2DbBF663b09EDCe8b774334fc408559846d0` [↗](https://arbiscan.io/address/0xbF3E2DbBF663b09EDCe8b774334fc408559846d0)
 * Short token staking farm: `0xf7824Fce8C155e74E87e9575c7084D0380B55BaF` [↗](https://arbiscan.io/address/0xf7824Fce8C155e74E87e9575c7084D0380B55BaF)
 
