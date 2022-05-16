@@ -43,37 +43,39 @@ __
 
 **Markets** are named using the format:
 
-&#x20;_`LLL-AAA/BBB+CCC`_
+&#x20;  _`L-A/B+C`_
 
 where:\
-_`LLL` is the market's`LEVERAGE` (a positive integer without leading zeros)_\
-_`AAA` is the `BASE` currency/token_\
-_`BBB` is the `QUOTE` currency/token_\
-_`CCC` is the `SETTLEMENT` currency/token_
+&#x20;  _   `L` is the market's`LEVERAGE` (a positive integer without leading zeros)_\
+&#x20;  _   `A` is the `BASE` currency/token_\
+&#x20;  _   `B` is the `QUOTE` currency/token_\
+&#x20;  _   `C` is the `SETTLEMENT` currency/token_
 
 For example, a 3 leverage market for the market pair BTC/USD, settled in USDC, would be referred to as:
 
-`3-BTC/USD+USDC`
+&#x20;  `3-BTC/USD+USDC`
 
 ``
 
 **Pool tokens** are named using the format:
 
-&#x20;_`LLLS-AAA/BBB+CCC`_
+&#x20;  _`LS-A/B+C`_
 
 where:
 
-_`LLL` is the market's`LEVERAGE` (a positive integer_ without leading zeroes_)_
+&#x20;  _`L` is the market's`LEVERAGE` (a positive integer_ without leading zeroes_)_
 
-_`S` is the market's `SIDE` (L - long or S - short)_
+&#x20;  _`S` is the market's `SIDE` (L - long or S - short)_
 
-_`AAA` is the `BASE` currency/token_
+&#x20;  _`A` is the `BASE` currency/token_
 
-_`BBB` is the `QUOTE` currency/token_&#x20;
+&#x20;  _`B` is the `QUOTE` currency/token_&#x20;
 
-_`CCC` is the `SETTLEMENT` currency/token_
+&#x20;  _`C` is the `SETTLEMENT` currency/token_
 
 For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD settled in USDC, would be referred to as:
 
-`S3-BTC/USD+USDC`
+&#x20;  `3S-BTC/USD+USDC`
+
+The maximum recommended symbol length is 15 characters.
 {% endhint %}
