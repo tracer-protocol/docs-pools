@@ -31,14 +31,16 @@ __:link: _Open in pools.tracer.finance_
 **Pool Tokens**
 
 * Long token
-  * Token name: `undefined`
+  * Symbol: `3L-BTC/USD+USDC`
+  * Metamask Symbol: `3L-ETH+USDC`
   * Token address: `0x17F99f2D5d7dC6957A0C18bfa49FBCf858199127`  ↗
   * Observations: `N/A`
 
 <!---->
 
 * Short token
-  * Token name: `undefined`
+  * Symbol: `3S-BTC/USD+USDC`
+  * Metamask Symbol: `3S-ETH+USDC`
   * Token address: `0x02f9742f7CA51891d440084208c8e969D55b94A2` ↗
   * Observations: `N/A`
 
@@ -46,8 +48,8 @@ __:link: _Open in pools.tracer.finance_
 
 * Rebalance frequency: `8 hours`
 * Front-running interval: `x minutes`
-* Short token staking farm: `0x`
-* Long token staking farm: `0x`
+* Long token staking farm: `0xE211c6a34a6b04Df2D5fBCf3E66Fd57b9eD76e0d`
+* Short token staking farm: `0x50041Fe576cEC7502eA97cE33627856299011Eb1`
 
 **Secondary market (Balancer)**
 
@@ -91,14 +93,16 @@ __:link: _Open in pools.tracer.finance_
 **Pool Tokens**
 
 * Long token
-  * Token name: `undefined`
+  * Symbol: `3L-ETH/USD+USDC`
+  * Metamask Symbol: `3L-ETH+USDC`
   * Token address: `0x989132f596Ff5F79fe3e52bbDdadACde6438bF06` ↗
   * Observations: `N/A`
 
 <!---->
 
 * Short token
-  * Token name: `undefined`
+  * Symbol: `3S-ETH/USD+USDC`
+  * Metamask Symbol: `3S-ETH+USDC`
   * Token address: `0xe0258E0b32cD3840ef29789bcDA9C2BF996e2A40` ↗
   * Observations: `N/A`
 
@@ -106,6 +110,8 @@ __:link: _Open in pools.tracer.finance_
 
 * Rebalance frequency: `8 hour`
 * Front-running interval: `x minutes`
+* Long token staking farm: `0xbF3E2DbBF663b09EDCe8b774334fc408559846d0`
+* Short token staking farm: 0xf7824Fce8C155e74E87e9575c7084D0380B55BaF
 
 **Secondary market (Balancer)**
 
