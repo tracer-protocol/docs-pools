@@ -57,7 +57,7 @@ For example, a 3 leverage market for the market pair BTC/USD, settled in USDC, w
 
 ``
 
-**Pool tokens** are named using the format:
+**Pool Tokens** are named using the format:
 
 &#x20;  _`LS-A/B+C`_
 
