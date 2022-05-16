@@ -47,21 +47,21 @@ _`AAA` is the `BASE` currency/token_\
 _`BBB` is the `QUOTE` currency/token_\
 _`CCC` is the `SETTLEMENT` currency/token_
 
-For example, a 3 leverage market for the market pair BTC/USD, settled in DAI, would be referred to as:
+For example, a 3 leverage market for the market pair BTC/USD, settled in USDC, would be referred to as:
 
-`3-BTC/USD+DAI`
+`3-BTC/USD+USDC`
 
 ``
 
 **Pool tokens** are named using the format:
 
-&#x20;_`SLLLAAABBBCCC`_
+&#x20;_`LLLS-AAA/BBB+CCC`_
 
 where:
 
-_`S` is the market's `SIDE` (L - long or S - short)_
+_`LLL` is the market's`LEVERAGE` (a positive integer_ without leading zeroes_)_
 
-_`LLL` is the market's`LEVERAGE` (a positive integer_ with leading zeroes_)_
+_`S` is the market's `SIDE` (L - long or S - short)_
 
 _`AAA` is the `BASE` currency/token_
 
@@ -69,7 +69,7 @@ _`BBB` is the `QUOTE` currency/token_&#x20;
 
 _`CCC` is the `SETTLEMENT` currency/token_
 
-For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD settled in DAI, would be referred to as:
+For example, a 3p leverage Pool's _short_ token, for the market pair BTC/USD settled in USDC, would be referred to as:
 
-`S003BTCUSDDAI`
+`S3-BTC/USD+USDC`
 {% endhint %}
