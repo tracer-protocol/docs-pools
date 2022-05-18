@@ -6,9 +6,148 @@
 
 <summary>3-BTC/USD+USDC</summary>
 
-<mark style="background-color:orange;">**⚠️ THIS IS AN EXPERIMENTAL MAINNET DEPLOY POOL - PLEASE HOLD OFF FROM DEPOSITING INTO THIS CONTRACT ⚠️**</mark>
+:link: _Open in pools.tracer.finance_
+
+**Deployment** **Information**
+
+* Deployment date: `2022-05-18`
+
+**Pricing Data**
+
+* Price feed: `BTC/USD`
+* Data manipulations: `8hr SMA`
+* Leverage (sigmoid): `3`
+
+**Settlement Asset**
+
+* Settlement asset: `USDC`
+
+**Fees**
+
+* Mint fee: `1%`
+* Management fee: `1% per annum`
+* Burn fee: `None`
+
+**Pool Tokens**
+
+* Long token
+  * Symbol: `3L-BTC/USD+USDC`
+  * Metamask Symbol: `3L-BTC+USDC`
+  * Token address: `0x` ↗
+  * Observations: `N/A`
+
+<!---->
+
+* Short token
+  * Symbol: `3S-BTC/USD+USDC`
+  * Metamask Symbol: `3S-BTC+USDC`
+  * Token address: `0x` ↗
+  * Observations: `N/A`
+
+**Pool Information**
+
+* Rebalance frequency: `1 hour`
+* Front-running interval: `8 hours`
+* Long token staking farm: `0x` ↗
+* Short token staking farm: `0x` ↗
+
+**Secondary market (Balancer)**
+
+* Pool address: `0x` ↗
+
+**Notes**
+
+* N/A
+
+</details>
+
+## Ether
+
+<details>
+
+<summary>3-ETH/USD+USDC</summary>
 
 :link: _Open in pools.tracer.finance_
+
+**Deployment** **Information**
+
+* Deployment date: `2022-05-18`
+
+**Pricing Data**
+
+* Price feed: `ETH/USD`
+* Data manipulations: `8hr SMA`
+* Leverage (sigmoid): `3`
+
+**Settlement Asset**
+
+* Settlement asset: `USDC`
+
+**Fees**
+
+* Mint fee: `1%`
+* Management fee: `1% per annum`
+* Burn fee: `None`
+
+**Pool Tokens**
+
+* Long token
+  * Symbol: `3L-ETH/USD+USDC`
+  * Metamask Symbol: `3L-ETH+USDC`
+  * Token address: `0x` ↗
+  * Observations: `N/A`
+
+<!---->
+
+* Short token
+  * Symbol: `3S-ETH/USD+USDC`
+  * Metamask Symbol: `3S-ETH+USDC`
+  * Token address: `0x` ↗
+  * Observations: `N/A`
+
+**Pool Information**
+
+* Rebalance frequency: `1 hour`
+* Front-running interval: `8 hours`
+* Long token staking farm: `0x` ↗
+* Short token staking farm: `0x` ↗
+
+**Secondary market (Balancer)**
+
+* Pool address: `0x` ↗
+
+**Notes**
+
+* N/A
+
+</details>
+
+## Market Cap
+
+👷‍♀️ _Coming Soon!_
+
+{% hint style="info" %}
+**Missing a market?**\
+You can use the Tracer API to query all existing markets [_(see API)_](https://api.tracer.finance/docs/#/). Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
+{% endhint %}
+
+
+
+
+
+## _Mainnet Testing Instances_
+
+{% hint style="danger" %}
+These markets are intended only for developer testing. Please do **not** interact with the contracts unless you know what you are doing.
+{% endhint %}
+
+<details>
+
+<summary><mark style="color:red;"><strong>⚠</strong></mark><strong> </strong> 3-BTC/USD+USDC <mark style="color:red;">(Mainnet Testing Instance)</mark></summary>
+
+<mark style="background-color:orange;">**⚠️ THIS IS A MAINNET TESTING INSTANCE - PLEASE DO NOT DEPOSIT TO THE CONTRACTS UNLESS YOU KNOW WHAT YOU ARE DOING ⚠️**</mark>
+
+_Mainnet Testing Instances are provided for testing purposes only and are deployed from a Testing Factory instance. They do not show up on Tracer interfaces and should not be used to deploy any markets intended for use._
 
 **Deployment** **Information**
 
@@ -63,15 +202,13 @@
 
 </details>
 
-## Ether
-
 <details>
 
-<summary>3-ETH/USD+USDC</summary>
+<summary><mark style="color:red;"><strong>⚠</strong></mark><strong> </strong> 3-ETH/USD+USDC <mark style="color:red;">(Mainnet Testing Instance)</mark></summary>
 
-<mark style="background-color:orange;">**⚠️ THIS IS AN EXPERIMENTAL MAINNET DEPLOY POOL - PLEASE HOLD OFF FROM DEPOSITING INTO THIS CONTRACT ⚠️**</mark>
+<mark style="background-color:orange;">**⚠️ THIS IS A MAINNET TESTING INSTANCE - PLEASE DO NOT DEPOSIT TO THE CONTRACTS UNLESS YOU KNOW WHAT YOU ARE DOING ⚠️**</mark>
 
-:link: _Open in pools.tracer.finance_
+_Mainnet Testing Instances are provided for testing purposes only and are deployed from a Testing Factory instance. They do not show up on Tracer interfaces and should not be used to deploy any markets intended for use. Contractually the testing instance functions exactly like the primary instance and can be used to test integrations with protocols that do not have testnet instances (e.g. Balancer) or to validate parameters and other design choices on Mainnet before full launch._
 
 **Deployment** **Information**
 
@@ -126,11 +263,3 @@
 
 </details>
 
-## Market Cap
-
-👷‍♀️ _Coming Soon!_
-
-{% hint style="info" %}
-**Missing a market?**\
-You can use the Tracer API to query all existing markets [_(see API)_](https://api.tracer.finance/docs/#/). Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
-{% endhint %}
