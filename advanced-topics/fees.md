@@ -4,7 +4,7 @@
 
 ## Mint Fee
 
-The mint fee is taken from the balance of the user at entry. The funds are added to the corresponding side of the pool, i.e. long mint fees are added to the long pool and short mint fees are added to the short pool. The mint fee is determined by the creator of the pool and can be set to \[0%:100%). The mint fee can later be adjusted by the fee controller.
+The mint fee is taken from the balance of the user at entry. The funds are added to the corresponding side of the pool, i.e. long mint fees are added to the long pool and short mint fees are added to the short pool. The mint fee is determined by the creator of the pool and can be set to \[0%:100%]. The mint fee can later be adjusted by the fee controller.
 
 
 
