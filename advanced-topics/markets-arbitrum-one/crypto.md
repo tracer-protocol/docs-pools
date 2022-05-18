@@ -50,8 +50,8 @@
 
 * Rebalance frequency: `1 hour`
 * Front-running interval: `8 hours`
-* Long token staking farm: `0x` ↗
-* Short token staking farm: `0x` ↗
+* Long token staking farm: `0xcD8c0662cf72512857e98646b5C8363782c137A7` [↗](https://arbiscan.io/address/0xcd8c0662cf72512857e98646b5c8363782c137a7)
+* Short token staking farm: `0x046B21659C445f43f2c621c874F79868dC6FA159` [↗](https://arbiscan.io/address/0x046B21659C445f43f2c621c874F79868dC6FA159)
 * Leveraged Pool: `0x6D3Fb4AA7ddCa8CBc88F7BA94B36ba83fF6bA234` [↗](https://arbiscan.io/address/0x6D3Fb4AA7ddCa8CBc88F7BA94B36ba83fF6bA234)
 * Pool Committer: `0xfA8C3b3DF1276e108002F912f1b065cF5Fdd5Bab` [↗](https://arbiscan.io/address/0xfA8C3b3DF1276e108002F912f1b065cF5Fdd5Bab)
 
@@ -115,8 +115,8 @@
 
 * Rebalance frequency: `1 hour`
 * Front-running interval: `8 hours`
-* Long token staking farm: `0x` ↗
-* Short token staking farm: `0x` ↗
+* Long token staking farm: `0xC21159bF0252A37b0c281DF2D9B723120cAa86c7` [↗](https://arbiscan.io/address/0xC21159bF0252A37b0c281DF2D9B723120cAa86c7)
+* Short token staking farm: `0x224949832f3dbf9a365D9bA3ec504727a103E96E` [↗](https://arbiscan.io/address/0x224949832f3dbf9a365D9bA3ec504727a103E96E)
 * Leveraged Pool: `0x3C16b9efE5E4Fc0ec3963F17c64a3dcBF7269207` [↗](https://arbiscan.io/address/0x3c16b9efe5e4fc0ec3963f17c64a3dcbf7269207)
 * Pool Committer: `0x1d859E3F9d65300164A5C43Bcc0B5477a95D2c96` [↗](https://arbiscan.io/address/0x1d859E3F9d65300164A5C43Bcc0B5477a95D2c96)
 
