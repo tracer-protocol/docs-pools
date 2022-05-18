@@ -30,7 +30,7 @@ Please find all information pertaining to Perpetual Pools Markets on the [Market
 
 <mark style="background-color:orange;">**⚠️ THESE CONTRACTS RELATE TO A MAINNET TESTING INSTANCE - PLEASE DO NOT DEPOSIT TO THE CONTRACTS UNLESS YOU KNOW WHAT YOU ARE DOING ⚠️**</mark>
 
-_Mainnet Testing Instances are provided for testing purposes only and are deployed from a Testing Factory instance. They do not show up on Tracer interfaces and should not be used to deploy any markets intended for use. Contractually the testing instance functions exactly like the primary instance and can be used to test integrations with protocols that do not have testnet instances (e.g. Balancer)._
+_Mainnet Testing Instances are provided for testing purposes only and are deployed from a Testing Factory instance. They do not show up on Tracer interfaces and should not be used to deploy any markets intended for use. Contractually the testing instance functions exactly like the primary instance and can be used to test integrations with protocols that do not have testnet instances (e.g. Balancer) or to validate parameters and other design choices on Mainnet before full launch._
 
 ### Arbitrum One (Mainnet Testing Instance)
 
