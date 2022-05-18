@@ -57,7 +57,7 @@
 
 **Secondary market (Balancer)**
 
-* Pool address: `0x` ↗
+* Pool address: `0x0d9fEC3a621387A3ceC87DA24c4aeC7cA261C856` [↗](https://arbitrum.balancer.fi/#/pool/0x0d9fec3a621387a3cec87da24c4aec7ca261c856000100000000000000000089)
 
 **Notes**
 
@@ -122,7 +122,7 @@
 
 **Secondary market (Balancer)**
 
-* Pool address: `0x` ↗
+* Pool address: `0x14D162E10eCCe3935c1F64cd49faB28b3cC2B527` [↗](https://arbitrum.balancer.fi/#/pool/0x14d162e10ecce3935c1f64cd49fab28b3cc2b527000100000000000000000088)
 
 **Notes**
 
