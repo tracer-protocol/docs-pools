@@ -17,10 +17,12 @@
 * Price feed: `BTC/USD`
 * Data manipulations: `8hr SMA`
 * Leverage (sigmoid): `3`
+* Oracle address: `0x307cA2a840ba96D3a0D8ac3398Bff695491DCe0B` [↗](https://arbiscan.io/address/0x307cA2a840ba96D3a0D8ac3398Bff695491DCe0B)
 
 **Settlement Asset**
 
 * Settlement asset: `USDC`
+* Settlement asset address: `0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8` [↗](https://arbiscan.io/address/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8)
 
 **Fees**
 
@@ -33,7 +35,7 @@
 * Long token
   * Symbol: `3L-BTC/USD+USDC`
   * Metamask Symbol: `3L-BTC+USDC`
-  * Token address: `0x` ↗
+  * Token address: `0x2Dc6B0D6580f3E2d6107D41A6ada0d8c6c605F88` [↗](https://arbiscan.io/address/0x2Dc6B0D6580f3E2d6107D41A6ada0d8c6c605F88)
   * Observations: `N/A`
 
 <!---->
@@ -41,7 +43,7 @@
 * Short token
   * Symbol: `3S-BTC/USD+USDC`
   * Metamask Symbol: `3S-BTC+USDC`
-  * Token address: `0x` ↗
+  * Token address: `0x00F70af6D1148E3127DB138ce633895e5eF6Bdb2` [↗](https://arbiscan.io/address/0x00F70af6D1148E3127DB138ce633895e5eF6Bdb2)
   * Observations: `N/A`
 
 **Pool Information**
@@ -50,6 +52,8 @@
 * Front-running interval: `8 hours`
 * Long token staking farm: `0x` ↗
 * Short token staking farm: `0x` ↗
+* Leveraged Pool: `0x6D3Fb4AA7ddCa8CBc88F7BA94B36ba83fF6bA234` [↗](https://arbiscan.io/address/0x6D3Fb4AA7ddCa8CBc88F7BA94B36ba83fF6bA234)
+* Pool Committer: `0xfA8C3b3DF1276e108002F912f1b065cF5Fdd5Bab` [↗](https://arbiscan.io/address/0xfA8C3b3DF1276e108002F912f1b065cF5Fdd5Bab)
 
 **Secondary market (Balancer)**
 
@@ -78,10 +82,12 @@
 * Price feed: `ETH/USD`
 * Data manipulations: `8hr SMA`
 * Leverage (sigmoid): `3`
+* Oracle address: `0x2456D80579a5A6dFEda70F05D46A67096372Ce2B` [↗](https://arbiscan.io/address/0x2456D80579a5A6dFEda70F05D46A67096372Ce2B)
 
 **Settlement Asset**
 
 * Settlement asset: `USDC`
+* Settlement asset address: `0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8` [↗](https://arbiscan.io/address/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8)
 
 **Fees**
 
@@ -94,7 +100,7 @@
 * Long token
   * Symbol: `3L-ETH/USD+USDC`
   * Metamask Symbol: `3L-ETH+USDC`
-  * Token address: `0x` ↗
+  * Token address: `0x44822C092C5ece611830DC0e1B86E80645749ae8` [↗](https://arbiscan.io/address/0x44822C092C5ece611830DC0e1B86E80645749ae8)
   * Observations: `N/A`
 
 <!---->
@@ -102,7 +108,7 @@
 * Short token
   * Symbol: `3S-ETH/USD+USDC`
   * Metamask Symbol: `3S-ETH+USDC`
-  * Token address: `0x` ↗
+  * Token address: `0x466598c279C2e2B7c7f2cd591Ac539720A205582` [↗](https://arbiscan.io/address/0x466598c279C2e2B7c7f2cd591Ac539720A205582)
   * Observations: `N/A`
 
 **Pool Information**
@@ -111,6 +117,8 @@
 * Front-running interval: `8 hours`
 * Long token staking farm: `0x` ↗
 * Short token staking farm: `0x` ↗
+* Leveraged Pool: `0x3C16b9efE5E4Fc0ec3963F17c64a3dcBF7269207` [↗](https://arbiscan.io/address/0x3c16b9efe5e4fc0ec3963f17c64a3dcbf7269207)
+* Pool Committer: `0x1d859E3F9d65300164A5C43Bcc0B5477a95D2c96` [↗](https://arbiscan.io/address/0x1d859E3F9d65300164A5C43Bcc0B5477a95D2c96)
 
 **Secondary market (Balancer)**
 
