@@ -6,6 +6,8 @@
 
 <summary>3-BTC/USD+USDC</summary>
 
+<mark style="background-color:orange;">**⚠️ THIS IS AN EXPERIMENTAL MAINNET DEPLOY POOL - PLEASE HOLD OFF FROM DEPOSITING INTO THIS CONTRACT ⚠️**</mark>
+
 :link: _Open in pools.tracer.finance_
 
 **Deployment** **Information**
@@ -66,6 +68,8 @@
 <details>
 
 <summary>3-ETH/USD+USDC</summary>
+
+<mark style="background-color:orange;">**⚠️ THIS IS AN EXPERIMENTAL MAINNET DEPLOY POOL - PLEASE HOLD OFF FROM DEPOSITING INTO THIS CONTRACT ⚠️**</mark>
 
 :link: _Open in pools.tracer.finance_
 
