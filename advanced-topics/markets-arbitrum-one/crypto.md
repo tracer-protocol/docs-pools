@@ -4,9 +4,11 @@
 
 <details>
 
-<summary>3-BTC/USD+USDC</summary>
+<summary>3-BTC/USD+USDC (Mainnet Testing Instance)</summary>
 
-<mark style="background-color:orange;">**⚠️ THIS IS AN EXPERIMENTAL MAINNET DEPLOY POOL - PLEASE HOLD OFF FROM DEPOSITING INTO THIS CONTRACT ⚠️**</mark>
+<mark style="background-color:orange;">**⚠️ THIS IS A MAINNET TESTING INSTANCE - PLEASE DO NOT DEPOSIT TO THE CONTRACTS UNLESS YOU KNOW WHAT YOU ARE DOING ⚠️**</mark>
+
+_Mainnet Testing Instances are provided for testing purposes only and are deployed from a Testing Factory instance. They do not show up on Tracer interfaces and should not be used to deploy any markets intended for use._
 
 :link: _Open in pools.tracer.finance_
 
@@ -67,9 +69,11 @@
 
 <details>
 
-<summary>3-ETH/USD+USDC</summary>
+<summary>3-ETH/USD+USDC (Mainnet Testing Instance)</summary>
 
-<mark style="background-color:orange;">**⚠️ THIS IS AN EXPERIMENTAL MAINNET DEPLOY POOL - PLEASE HOLD OFF FROM DEPOSITING INTO THIS CONTRACT ⚠️**</mark>
+<mark style="background-color:orange;">**⚠️ THIS IS A MAINNET TESTING INSTANCE - PLEASE DO NOT DEPOSIT TO THE CONTRACTS UNLESS YOU KNOW WHAT YOU ARE DOING ⚠️**</mark>
+
+_Mainnet Testing Instances are provided for testing purposes only and are deployed from a Testing Factory instance. They do not show up on Tracer interfaces and should not be used to deploy any markets intended for use._
 
 :link: _Open in pools.tracer.finance_
 
