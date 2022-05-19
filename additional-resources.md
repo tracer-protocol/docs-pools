@@ -19,6 +19,10 @@ __Description: A step-by-step on minting and burning tokens using the Perpetual 
 **Tracer's Perpetual Pools V2 Simulations **<mark style="color:blue;">**(**</mark>[<mark style="color:blue;">**Radar**</mark>](https://tracer.finance/radar/v2-simulations/)<mark style="color:blue;">**)**</mark>\ <mark style="color:blue;">****</mark>Author: _Tracer DAO_\
 __Description: Expected Reduction in Volatility Decay
 
+**Skew Farming Explained **<mark style="color:blue;">**(**</mark>[<mark style="color:blue;">**Radar**</mark>](https://tracer.finance/radar/skew-farming-explained/)<mark style="color:blue;">**)**</mark>\
+Author: _Tracer DAO_\
+Description: Excess Risk-Adjusted Returns with a Delta-Neutral Position
+
 {% hint style="info" %}
 Would to see your article, video, or paper here? Join us on [Discord](https://discord.gg/TracerDAO) and share your piece with the team to get it included here!
 {% endhint %}
