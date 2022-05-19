@@ -20,9 +20,9 @@ If you think you could create an extensive technical explanation and development
 
 ## Useful Resources
 
-| Title                                                  | Author    | Description                                                                                                                                                               | Link                                                                                                      |
-| ------------------------------------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| BYOB (Build Your Own Bot) on Tracer Perpetual Pools v2 | rogueibis | This guide will show you how to leverage some of the open-source packages provided by Tracer DAO to build automated bots that can perform trades on PPV2 while you sleep. | [Medium](https://medium.com/tracer-dao/byob-build-your-own-bot-on-tracer-perpetual-pools-v2-a43e88e9d090) |
+**BYOB (Build Your Own Bot) on Tracer Perpetual Pools v2 **<mark style="color:blue;">**(**</mark>[<mark style="color:blue;">**Medium**</mark>](https://medium.com/tracer-dao/byob-build-your-own-bot-on-tracer-perpetual-pools-v2-a43e88e9d090)<mark style="color:blue;">**)**</mark>\
+****Author: _rogueibis_\
+Description: This guide will show you how to leverage some of the open-source packages provided by Tracer DAO to build automated bots that can perform trades on PPV2 while you sleep.
 
 {% hint style="info" %}
 Would to see your article, video, or paper here? Join us on [Discord](https://discord.gg/TracerDAO) and share your piece with the team to get it included here!
