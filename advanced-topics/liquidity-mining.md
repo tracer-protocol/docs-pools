@@ -15,7 +15,7 @@ description: All times & dates UTC.
 #### May – June
 
 {% tabs %}
-{% tab title="May 17 - May 24" %}
+{% tab title="May 19 - May 26" %}
 #### This week's rewards: 600,000 **TCR**
 
 Emission: Linear&#x20;
