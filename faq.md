@@ -32,6 +32,10 @@ As stated above, pool tokens are created/destroyed during a rebalancing event. B
 
 The front running interval is a period before an update that excludes traders' mint and burn orders from the upcoming rebalancing event. If traders don't commit before the front running interval, their orders remain queued until the following update. In Perpetual Pools V1.0, the front running interval will be 300 seconds. For more information, see [Mechanism ](advanced-topics/mechanism/)under Advanced Topics.
 
+**I still don't understand the front-running interval and the rebalance period?**
+
+One can think about it as follows: the front-running interval is the amount of time that _has to be_ waited for, from an _economic_ perspective, to prevent front-running the price feed. From a _holistic_ perspective, you have to meet the economic constraint but also the _technical_ constraint of the update only happening at the on a period. Overall, both the _technical_ and _economic_ constraints need to be met. In the case of an 8h SMA, 1h rebalance period, means that you have to wait (at minimum) to fulfil the economic constraint (8h SMA) and, if you are unlucky, also completely wait for the technical constraint to be fulfilled, i.e. waiting another hour on top of the 8 hours.
+
 ## Holding tokens
 
 #### How long can I hold a leveraged token?
