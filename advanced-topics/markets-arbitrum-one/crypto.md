@@ -10,6 +10,69 @@
 
 **Deployment** **Information**
 
+* Deployment date: `2022-06-01`
+
+**Pricing Data**
+
+* Price feed: `BTC/USD`
+* Data manipulations: `8hr SMA`
+* Leverage (sigmoid): `3`
+* Oracle address: `0xe72D2194046AEB0Bd60307e99fe5BC224Be5683B` [↗](https://arbiscan.io/address/0xe72D2194046AEB0Bd60307e99fe5BC224Be5683B)
+
+**Settlement Asset**
+
+* Settlement asset: `USDC`
+* Settlement asset address: `0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8` [↗](https://arbiscan.io/address/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8)
+
+**Fees**
+
+* Mint fee: `None`
+* Management fee: `2% per annum`
+* Burn fee: `None`
+
+**Pool Tokens**
+
+* Long token
+  * Symbol: `3L-BTC/USD+USDC`
+  * Metamask Symbol: `3L-BTC+USDC`
+  * Token address: `0xAC278Be0b5AD810EE3DCF79dd2933C33cc234258` [↗](https://arbiscan.io/address/0xAC278Be0b5AD810EE3DCF79dd2933C33cc234258)
+  * Observations: `N/A`
+
+<!---->
+
+* Short token
+  * Symbol: `3S-BTC/USD+USDC`
+  * Metamask Symbol: `3S-BTC+USDC`
+  * Token address: `0x6e5f70E345b4aFd271491290e026dd3d34CBb9f2` [↗](https://arbiscan.io/address/0x6e5f70E345b4aFd271491290e026dd3d34CBb9f2)
+  * Observations: `N/A`
+
+**Pool Information**
+
+* Rebalance frequency: `1 hour`
+* Front-running interval: `8 hours`
+* Long token staking farm: `0x04Ff29F8F379B2AA7d79BA66Ce76649334D83e48` [↗](https://arbiscan.io/address/0x04Ff29F8F379B2AA7d79BA66Ce76649334D83e48)
+* Short token staking farm: `0x16c457fC0F5d5981574ED2BaeD81c625BD91b633` [↗](https://arbiscan.io/address/0x16c457fC0F5d5981574ED2BaeD81c625BD91b633)
+* Leveraged Pool: `0x3aca4F1B1791D00eBBAE01d65E9739c9C886F33C` [↗](https://arbiscan.io/address/0x3aca4F1B1791D00eBBAE01d65E9739c9C886F33C)
+* Pool Committer: `0xF52A27DE6777a943f3EE19B7804F54c67BF64f72` [↗](https://arbiscan.io/address/0xF52A27DE6777a943f3EE19B7804F54c67BF64f72)
+
+**Secondary market (Balancer)**
+
+* Pool address: `0x045c5480131EeF51AA1a74F34e62e7DE23136f24`[↗](https://arbitrum.balancer.fi/#/pool/0x045c5480131eef51aa1a74f34e62e7de23136f2400010000000000000000009a)
+
+**Notes**
+
+* N/A
+
+</details>
+
+<details>
+
+<summary>3-BTC/USD+USDC (Deprecated)</summary>
+
+:link: _Open in pools.tracer.finance_
+
+**Deployment** **Information**
+
 * Deployment date: `2022-05-18`
 
 **Pricing Data**
@@ -70,6 +133,69 @@
 <details>
 
 <summary>3-ETH/USD+USDC</summary>
+
+:link: _Open in pools.tracer.finance_
+
+**Deployment** **Information**
+
+* Deployment date: `2022-06-01`
+
+**Pricing Data**
+
+* Price feed: `ETH/USD`
+* Data manipulations: `8hr SMA`
+* Leverage (sigmoid): `3`
+* Oracle address: `0xfE7d097f8F752C83D6C9a0414D611e1c958780cB` [↗](https://arbiscan.io/address/0xfE7d097f8F752C83D6C9a0414D611e1c958780cB)
+
+**Settlement Asset**
+
+* Settlement asset: `USDC`
+* Settlement asset address: `0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8` [↗](https://arbiscan.io/address/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8)
+
+**Fees**
+
+* Mint fee: `None`
+* Management fee: `2% per annum`
+* Burn fee: `None`
+
+**Pool Tokens**
+
+* Long token
+  * Symbol: `3L-ETH/USD+USDC`
+  * Metamask Symbol: `3L-ETH+USDC`
+  * Token address: `0x4d00c6dD5D5299082a1062C9B480af2FC698f6Eb` [↗](https://arbiscan.io/address/0x4d00c6dD5D5299082a1062C9B480af2FC698f6Eb)
+  * Observations: `N/A`
+
+<!---->
+
+* Short token
+  * Symbol: `3S-ETH/USD+USDC`
+  * Metamask Symbol: `3S-ETH+USDC`
+  * Token address: `0x7fF6132ef2Abf89B6eC509947eB2c1ee9Da29F26` [↗](https://arbiscan.io/address/0x7fF6132ef2Abf89B6eC509947eB2c1ee9Da29F26)
+  * Observations: `N/A`
+
+**Pool Information**
+
+* Rebalance frequency: `1 hour`
+* Front-running interval: `8 hours`
+* Long token staking farm: `0x111278bf2CC2Fd862183CF34896c60DbbEA0706F` [↗](https://arbiscan.io/address/0x111278bf2CC2Fd862183CF34896c60DbbEA0706F)
+* Short token staking farm: `0x489dA242a948d1978673FEF8836740c11732eC0B` [↗](https://arbiscan.io/address/0x489dA242a948d1978673FEF8836740c11732eC0B)
+* Leveraged Pool: `0x8F4af5A3b58EA60e66690f30335Ed8586E46AcEb` [↗](https://arbiscan.io/address/0x8F4af5A3b58EA60e66690f30335Ed8586E46AcEb)
+* Pool Committer: `0xC2940691CE97DDb85f78BB2526495e579Aba5798` [↗](https://arbiscan.io/address/0xC2940691CE97DDb85f78BB2526495e579Aba5798)
+
+**Secondary market (Balancer)**
+
+* Pool address: `0x59B7867F6B127070378feeb328e2Ffe6AAb67525`[↗](https://arbitrum.balancer.fi/#/pool/0x59b7867f6b127070378feeb328e2ffe6aab6752500010000000000000000009b)
+
+**Notes**
+
+* N/A
+
+</details>
+
+<details>
+
+<summary>3-ETH/USD+USDC (Deprecated)</summary>
 
 :link: _Open in pools.tracer.finance_
 
