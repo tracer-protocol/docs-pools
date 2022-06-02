@@ -24,9 +24,13 @@ Please find all information pertaining to Perpetual Pools Markets on the [Market
 
 **InvariantCheck**: `0x010641702a9E4cdDe6ad774c09449f05DDeA0fF6` [↗](https://arbiscan.io/address/0x010641702a9E4cdDe6ad774c09449f05DDeA0fF6)
 
-**Deployer**: `0xCC97EB5651e05D5a0Ae8bcD2813B9DFDaD6F92a5` [↗](https://arbiscan.io/address/0xCC97EB5651e05D5a0Ae8bcD2813B9DFDaD6F92a5)
+**Deployer**: `0xCC97EB5651e05D5a0Ae8bcD2813B9DFDaD6F92a5`&#x20;
 
-### Arbitrum One (Deprecated)
+<details>
+
+<summary>Arbitrum One (Deprecated)</summary>
+
+_A flaw was found in this version of Perpetual Pools. We advise users to migrate away from markets deployed using this Pool Factory._
 
 **PoolFactory**: `0xdabffa47e509659FEDE5deC5e22CFFb9Cb9040b4` [↗](https://arbiscan.io/address/0xdabffa47e509659FEDE5deC5e22CFFb9Cb9040b4)
 
@@ -45,6 +49,8 @@ Please find all information pertaining to Perpetual Pools Markets on the [Market
 **InvariantCheck**: `0xdB042C4F6baa8Ef8A1A38038A7533B32be722B6d` [↗](https://arbiscan.io/address/0xdB042C4F6baa8Ef8A1A38038A7533B32be722B6d)
 
 **Deployer**: `0xfb59B91646cd0890F3E5343384FEb746989B66C7` [↗](https://arbiscan.io/address/0xfb59b91646cd0890f3e5343384feb746989b66c7)
+
+</details>
 
 <details>
 
