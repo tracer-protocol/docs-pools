@@ -26,6 +26,28 @@ Please find all information pertaining to Perpetual Pools Markets on the [Market
 
 **Deployer**: `0xCC97EB5651e05D5a0Ae8bcD2813B9DFDaD6F92a5`&#x20;
 
+### Arbitrum Rinkeby Testnet (Active)
+
+**PoolFactory**: `0x0896Fd59b574f536751c82B8Dd9fd9466af009aC` [↗](https://arbiscan.io/address/0x0896Fd59b574f536751c82B8Dd9fd9466af009aC)
+
+**PoolKeeper**: `0x753f0520a8a1e44a39C64F40d29235A6C73EAE38` [↗](https://arbiscan.io/address/0x753f0520a8a1e44a39C64F40d29235A6C73EAE38)
+
+**PoolSwapLibrary**: `0xc644E1ba225E2ab0BE407926A177dDc89101A77d` [↗](https://arbiscan.io/address/0xc644E1ba225E2ab0BE407926A177dDc89101A77d)
+
+**L2Encoder**: `0x1c701aE4De2a73A0B41BaED526BBbC4dE811A0df` [↗](https://arbiscan.io/address/0x1c701aE4De2a73A0B41BaED526BBbC4dE811A0df)
+
+**CallDataLogic**: `0xaF0979e8cbf003Fa3b19B1F42A8253d0C42D58B6` [↗](https://arbiscan.io/address/0xaF0979e8cbf003Fa3b19B1F42A8253d0C42D58B6)
+
+**AutoClaim**: `0x11f9823ED60bEbb47A843127729332556463BF1B` [↗](https://arbiscan.io/address/0x11f9823ED60bEbb47A843127729332556463BF1B)
+
+**KeeperRewards**: `0x6C70d063d8cDE61C9c4ab03996161e1bF4D3d434` [↗](https://arbiscan.io/address/0x6C70d063d8cDE61C9c4ab03996161e1bF4D3d434)
+
+**InvariantCheck**: `0x3004CC46432522B0AeA30d16aF769B1727aA0c26` [↗](https://arbiscan.io/address/0x3004CC46432522B0AeA30d16aF769B1727aA0c26)
+
+**Deployer**: `0xCC97EB5651e05D5a0Ae8bcD2813B9DFDaD6F92a5`&#x20;
+
+
+
 <details>
 
 <summary>Arbitrum One (Deprecated)</summary>
