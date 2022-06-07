@@ -4,7 +4,7 @@
 
 **The Pools disappear when I connect my wallet**
 
-This is likely due to an RPC issue. In most cases we recommend changing your RPC from the default ones. If you'd like to learn how, we have a tutorial [here](https://tracer.finance/radar/remote-procedure-call-creating-an-rpc/).
+This is likely due to an RPC issue. In most cases we recommend changing your RPC from the default ones. If you'd like to learn how, we have a tutorial [here](https://tracer.finance/radar/remote-procedure-call-creating-an-rpc/). You can also see Offchain Labs' docs [here](https://developer.offchainlabs.com/docs/mainnet#getting-started).
 
 ## Purchasing/minting & selling/burning tokens
 
