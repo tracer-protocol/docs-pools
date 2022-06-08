@@ -31,6 +31,7 @@
   * [Forex](advanced-topics/markets-arbitrum-one/forex.md)
   * [NFT](advanced-topics/markets-arbitrum-one/nft.md)
 * [Liquidity Mining](advanced-topics/liquidity-mining.md)
+* [Testnet](advanced-topics/testnet.md)
 
 ## 📺 Tutorials
 
