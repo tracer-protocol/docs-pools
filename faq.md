@@ -4,7 +4,7 @@
 
 **The Pools disappear when I connect my wallet**
 
-This is likely due to an RPC issue. In most cases we recommend changing your RPC from the default ones. If you'd like to learn how, we have a tutorial [here](https://tracer.finance/radar/remote-procedure-call-creating-an-rpc/).
+This is likely due to an RPC issue. In most cases we recommend changing your RPC from the default ones. If you'd like to learn how, we have a tutorial [here](https://tracer.finance/radar/remote-procedure-call-creating-an-rpc/). You can also see Offchain Labs' docs [here](https://developer.offchainlabs.com/docs/mainnet#getting-started).
 
 ## Purchasing/minting & selling/burning tokens
 
@@ -49,6 +49,10 @@ The SMA price was introduced to mitigate volatility decay. As v2 is more modular
 #### Where are my tokens?&#x20;
 
 Your tokens are likely still with the Pool. You need to claim them from escrow before they appear in your wallet. If you have claimed and still can't see them, go to [troubleshooting](troubleshooting.md).&#x20;
+
+**How do liquidations work?**
+
+There are no liquidations in Perpetual Pools. All positions are fully funded.
 
 ## Financial concepts
 
