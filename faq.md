@@ -110,4 +110,4 @@ Binance and FTX's leveraged tokens are reliant on trusted, centralised third par
 
 **What happens if the Index Price goes negative?**
 
-Perpetual Pools only accept positive prices. If the Index Price is zero or negative the Pool will pause until the Index Price returns a positive.
+_TL:DR; The market effectively pauses._ Perpetual Pools only accept positive prices. If the Index Price is zero or negative the Pool will emit  a `PriceChangeError` and the rebalances pause until the Index Price returns a positive.
