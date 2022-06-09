@@ -107,3 +107,7 @@ Perpetual Pools can also be deployed on the Ethereum mainnet. PPv2 is also avail
 **How do Pool Tokens differ from Binance and FTX leveraged tokens?**
 
 Binance and FTX's leveraged tokens are reliant on trusted, centralised third parties. They need a party to create the leveraged exposure for their tokens by holding a perpetual swap or lending platform position. Perpetual Pools leveraged tokens are created by a decentralised, trustless system. This system is also simple, affordable and does not have slippage or market liquidity risk.&#x20;
+
+**What happens if the Index Price goes negative?**
+
+Perpetual Pools only accept positive prices. If the Index Price is zero or negative the Pool will pause until the Index Price returns a positive.
