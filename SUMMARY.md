@@ -47,7 +47,8 @@
 
 ## 🏭 Factory
 
-* [Pools Factory](factory/pools-factory.md)
+* [Pools Factory](factory/pools-factory/README.md)
+  * [Adding a Market to the App](factory/pools-factory/adding-a-market-to-the-app.md)
 
 ## 💾 Developer resources
 
