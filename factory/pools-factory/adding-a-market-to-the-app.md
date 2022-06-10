@@ -9,10 +9,9 @@ Some markets are shown on the front end by default. These markets are either cre
 1. Ensure the Market fulfils data quality criteria set by the Tracer Indices Council.
 2. Ensure the Market fulfils market accuracy criteria (_see_ [_below_](adding-a-market-to-the-app.md#market-accuracy-criteria)).
 3. Ensure the Market fulfils market performance criteria (see [_below_](adding-a-market-to-the-app.md#undefined)).
-4. Create a proposal on [Discourse](https://discourse.tracer.finance/c/product/perpetual-pools/69) outlining the Market's purpose and providing sufficient evidence the criteria listed in 1-3 are satisfactorily fulfiled. Furthermore, the proposal should include an analysis of potential risk vectors related to using the Market, including, but not limited to, oracle performance, edge-case values, and manipulation potential. The purpose of the proposal is to probe the DAO's approval/rejection of the Market's inclusion prior to a formal voting procedure.
-5. Should the Discourse sentiment be mostly positive/neutral, a Snapshot vote can be started after a period of 24 hours has passed.
-6. Upon a successful governance vote, the requester can create a PR on GitHub to include the market on the front end (see [example PR](https://github.com/mycelium-ethereum/perpetual-api/pull/125)). Should the requester not have the technical ability to do this, they can alternatively reach out to the DAO's operations team on Discord.
-7. Make a PR to the [Pools' GitBook](https://github.com/tracer-protocol/docs-pools) repository to include the Market's information as part of the documentation. You can use the [3-BTC/USD+USDC](https://pools.docs.tracer.finance/advanced-topics/markets-arbitrum-one/crypto) information as a reference.
+4. Follow the usual governance process to include the market on the front end. Please refer to the "[How to Govern](https://dao.docs.tracer.finance/governance/governors#how-to-govern)" section in [DAO Docs](https://app.gitbook.com/o/-MbdsGfc3PEsikGQpmCo/s/c7RWzlPWCpuLBm0Xz4Xw/). In your proposal, provide sufficient evidence the criteria listed in 1-3 are satisfactorily fulfiled. Furthermore, the proposal should include an analysis of potential risk vectors related to using the Market, including, but not limited to, oracle performance, edge-case values, and manipulation potential. The purpose of the proposal is to probe the DAO's approval/rejection of the Market's inclusion prior to a formal voting procedure.
+5. Upon passing the governance process successfully, the requester can create a PR on GitHub to include the market on the front end (see [example PR](https://github.com/mycelium-ethereum/perpetual-api/pull/125)). Should the requester not have the technical ability to do this, they can alternatively reach out to the DAO's operations team on Discord.
+6. Make a PR to the [Pools' GitBook](https://github.com/tracer-protocol/docs-pools) repository to include the Market's information as part of the documentation. You can use the [3-BTC/USD+USDC](https://pools.docs.tracer.finance/advanced-topics/markets-arbitrum-one/crypto) information as a reference.
 
 ## Market Criteria
 
@@ -35,7 +34,7 @@ The Market needs to fulfil Market Performance Criteria (MPC) prior to being cons
 2. The Market must have a minimum total value locked of $10,000.00, or equivalent.
 3. The Market must have a valid Keeper.
 4. The Market must only reference oracles that are approved by, or fulfil the criteria set by, the Tracer Indices Council.
-5. The Market's Pool Token price must be 1.000±2.5% when the initial Discourse proposal is made.
-6. The Market's Skew must be 1.000±5% when the initial Discourse proposal is made.
+5. The Market's Pool Token price must be 1.000±2.5%.
+6. The Market's Skew must be 1.000±5%.
 
-MPC 1-4 must be fulfilled at all times and the Market may be removed from the front end, subject to a governance proposal, should any of these fail. MPC 5-6 must be fulfilled only at the time of the initial Discourse proposal.
+MPC 1-4 must be fulfilled at all times and the Market may be removed from the front end, subject to a governance proposal, should any of these fail. MPC 5-6 must be fulfilled only when the governance process is initiated.
