@@ -36,5 +36,6 @@ The Market needs to fulfil Market Performance Criteria (MPC) prior to being cons
 3. The Market must have a valid Keeper.
 4. The Market must only reference oracles that are approved by, or fulfil the criteria set by, the Tracer Indices Council.
 5. The Market's Pool Token price must be 1.000±2.5% when the initial Discourse proposal is made.
+6. The Market's Skew must be 1.000±5% when the initial Discourse proposal is made.
 
-MPC 1-4 must be fulfilled at all times and the Market may be removed from the front end, subject to a governance proposal, should any of these fail. MPC 5 must be fulfilled only at the time of the initial Discourse proposal.
+MPC 1-4 must be fulfilled at all times and the Market may be removed from the front end, subject to a governance proposal, should any of these fail. MPC 5-6 must be fulfilled only at the time of the initial Discourse proposal.
