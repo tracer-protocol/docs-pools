@@ -29,7 +29,7 @@ Should the Market, at any point, fail to honour an of the MACs it can be removed
 
 ### Market Performance Criteria
 
-The Market needs to fulfil Market Performance Criteria (MCP) prior to being considered for default inclusion on the web app:
+The Market needs to fulfil Market Performance Criteria (MPC) prior to being considered for default inclusion on the web app:
 
 1. The Market must have completed at least two Rebalances succesfully.
 2. The Market must have a minimum total value locked of $10,000.00, or equivalent.
@@ -37,4 +37,4 @@ The Market needs to fulfil Market Performance Criteria (MCP) prior to being cons
 4. The Market must only reference oracles that are approved by, or fulfil the criteria set by, the Tracer Indices Council.
 5. The Market's Pool Token price must be 1.000±2.5% when the initial Discourse proposal is made.
 
-MCP 1-4 must be fulfilled at all times and the Market may be removed from the front end, subject to a governance proposal, should any of these fail. MCP 5 must be fulfilled only at the time of the initial Discourse proposal.
+MPC 1-4 must be fulfilled at all times and the Market may be removed from the front end, subject to a governance proposal, should any of these fail. MPC 5 must be fulfilled only at the time of the initial Discourse proposal.
