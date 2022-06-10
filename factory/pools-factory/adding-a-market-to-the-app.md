@@ -12,6 +12,7 @@ Some markets are shown on the front end by default. These markets are either cre
 4. Create a proposal on [Discourse](https://discourse.tracer.finance/c/product/perpetual-pools/69) outlining the Market's purpose and providing sufficient evidence the criteria listed in 1-3 are satisfactorily fulfiled. Furthermore, the proposal should include an analysis of potential risk vectors related to using the Market, including, but not limited to, oracle performance, edge-case values, and manipulation potential. The purpose of the proposal is to probe the DAO's approval/rejection of the Market's inclusion prior to a formal voting procedure.
 5. Should the Discourse sentiment be mostly positive/neutral, a Snapshot vote can be started after a period of 24 hours has passed.
 6. Upon a successful governance vote, the requester can create a PR on GitHub to include the market on the front end (see [example PR](https://github.com/mycelium-ethereum/perpetual-api/pull/125)). Should the requester not have the technical ability to do this, they can alternatively reach out to the DAO's operations team on Discord.
+7. Make a PR to the [Pools' GitBook](https://github.com/tracer-protocol/docs-pools) repository to include the Market's information as part of the documentation. You can use the [3-BTC/USD+USDC](https://pools.docs.tracer.finance/advanced-topics/markets-arbitrum-one/crypto) information as a reference.
 
 ## Market Criteria
 
