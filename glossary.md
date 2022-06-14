@@ -38,7 +38,7 @@
 * **Oracle:** The EOA providing raw data. ****&#x20;
 * **Period**: The time between Rebalances.
 * **Perpetual Pool**: The contract that holds funds and keeps account of long and short ownership. Mints Pool Tokens when funds are added and burns Pool Tokens when funds are redeemed.
-* **Pool**: See _"Perpetual Pool"._
+* **Pool**: See _"Perpetual Pool" (sometimes used to refer to a "Market")._
 * **Pool Keeper**: Various economically incentivised actions taken by third parties to support the functioning of a Market.
 * **Pool Owner**: The Address who owns the Market. They can set contracts to perform pool upkeep, autoclaims, and invariant checks. They can also set the Primary Fee Receiver along with the secondary fee split percentage.
 * **Pool Ticker**: See _"Symbol"_.
