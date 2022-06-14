@@ -12,6 +12,8 @@ The easiest way to deploy new markets is by using the [Tracer Factory](../factor
 
 ## Technical Explanations
 
+### Contracts, SDK, and API
+
 {% hint style="info" %}
 This part of the Tracer Docs is still incomplete.&#x20;
 
