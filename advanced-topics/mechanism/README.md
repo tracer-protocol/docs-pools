@@ -112,7 +112,9 @@ There is no minimum commit size in V2.&#x20;
 
 ### Escrow
 
-Pools mint long and short tokens, and return funds, to an escrow account. Users can claim their assets, or enter and exit Pools, from escrow.
+Pools mint long and short tokens, and return funds, to an escrow account. Users can claim their assets, or enter and exit Markets, from escrow.
+
+Please note that escrows are Market-specific as each Market is its own independent instance. Hence, you cannot, for example, use the escrow funds of Market X to mint tokens in Market Y.&#x20;
 
 ### Token Value
 
