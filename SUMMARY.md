@@ -21,6 +21,7 @@
   * [Performance](advanced-topics/mechanism/performance.md)
   * [Upkeep & Autoclaim](advanced-topics/mechanism/upkeep-and-autoclaim.md)
   * [Skew](advanced-topics/mechanism/skew.md)
+  * [User Safety](advanced-topics/mechanism/user-safety.md)
 * [Fees](advanced-topics/fees.md)
 * [Use cases](advanced-topics/use-cases.md)
 * [Markets (Arbitrum One)](advanced-topics/markets-arbitrum-one/README.md)
