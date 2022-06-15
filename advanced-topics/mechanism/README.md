@@ -86,7 +86,7 @@ Pricing has changed from V1. Read the justification for this change on [Radar](h
 
 ### Keeper&#x20;
 
-The transfer is initiated by a _keeper_ at the end of a period. For details, see the [Upkeep](../upkeep-and-autoclaim.md) section.&#x20;
+The transfer is initiated by a _keeper_ at the end of a period. For details, see the [Upkeep](upkeep-and-autoclaim.md) section.&#x20;
 
 ### Mint and Burn
 

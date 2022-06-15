@@ -19,8 +19,8 @@
 
 * [Mechanism](advanced-topics/mechanism/README.md)
   * [Performance](advanced-topics/mechanism/performance.md)
-* [Upkeep & Autoclaim](advanced-topics/upkeep-and-autoclaim.md)
-* [Skew](advanced-topics/skew.md)
+  * [Upkeep & Autoclaim](advanced-topics/mechanism/upkeep-and-autoclaim.md)
+  * [Skew](advanced-topics/mechanism/skew.md)
 * [Fees](advanced-topics/fees.md)
 * [Use cases](advanced-topics/use-cases.md)
 * [Markets (Arbitrum One)](advanced-topics/markets-arbitrum-one/README.md)
@@ -52,7 +52,8 @@
 
 ## 💾 Developer resources
 
-* [Development Guide](developer-resources/development-guide.md)
+* [Development Guide](developer-resources/development-guide/README.md)
+  * [Permission Management](developer-resources/development-guide/permission-management.md)
 * [URL parameters](developer-resources/url-parameters.md)
 * [SDK](developer-resources/sdk.md)
 * [API](https://api.tracer.finance/docs/#/)

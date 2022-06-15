@@ -3,7 +3,7 @@
 The Perpetual Pools contract payoff depends on long and short demand. If the proportion of Pool funds belonging to a party is greater than 50%, the more-demanded position (pool) pays an in-kind funding rate to their counterparty (counterpool).
 
 {% hint style="info" %}
-Users that take advantage of in-kind funding are known as skew farmers. Our [User section](use-cases.md#skew-farmer) has a detailed farming guide if you'd like to implement a strategy.
+Users that take advantage of in-kind funding are known as skew farmers. Our [User section](../use-cases.md#skew-farmer) has a detailed farming guide if you'd like to implement a strategy.
 {% endhint %}
 
 This funding rate is the difference between what parties expect to receive (if the pools were equally capitalised), versus what they actually get.

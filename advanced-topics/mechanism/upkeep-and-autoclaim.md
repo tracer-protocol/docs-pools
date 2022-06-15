@@ -16,7 +16,7 @@ This process is known as the rebalance.&#x20;
 
 Keepers are paid to perform upkeep. The payment factors for the cost of upkeep, which the keeper is reimbursed, and a tip. The tip is calculated as 5% of the cost to upkeep and increases by 5 percentage points with every block that upkeep remains eligible. The maximum keeper tip is 100%.
 
-Payment is taken from the Pool funds. This payment is not to be confused with the [management fee](fees.md#management).&#x20;
+Payment is taken from the Pool funds. This payment is not to be confused with the [management fee](../fees.md#management).&#x20;
 
 The keeper reward is calculated by
 
