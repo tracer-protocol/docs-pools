@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/Roadmap_Graphic_01_3-01_resize.png
+cover: .gitbook/assets/Tracer_Gitbook_Assets-PerpetualPools.png
 coverY: 0
 ---
 

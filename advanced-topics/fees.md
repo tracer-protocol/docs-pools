@@ -30,11 +30,11 @@ The following schedule contains the default fees. Please note that the fee struc
 
 | Leverage | Mint fee | Management fee | Burn fee |
 | -------- | -------- | -------------- | -------- |
-| 1        | 0.3%     | 1%             | 0%       |
-| 2        | 0.6%     | 1%             | 0%       |
-| 3        | 1%       | 1%             | 0%       |
-| 4        | 1.5%     | 1%             | 0%       |
-| 5        | 2%       | 1%             | 0%       |
+| 1        | 0.3%     | 2%             | 0%       |
+| 2        | 0.6%     | 2%             | 0%       |
+| 3        | 1%       | 2%             | 0%       |
+| 4        | 1.5%     | 2%             | 0%       |
+| 5        | 2%       | 2%             | 0%       |
 
 {% hint style="warning" %}
 _Always check the fee schedule of the pool before committing!_

@@ -86,7 +86,7 @@ Pricing has changed from V1. Read the justification for this change on [Radar](h
 
 ### Keeper&#x20;
 
-The transfer is initiated by a _keeper_ at the end of a period. For details, see the [Upkeep](../upkeep-and-autoclaim.md) section.&#x20;
+The transfer is initiated by a _keeper_ at the end of a period. For details, see the [Upkeep](upkeep-and-autoclaim.md) section.&#x20;
 
 ### Mint and Burn
 
@@ -112,7 +112,9 @@ There is no minimum commit size in V2.&#x20;
 
 ### Escrow
 
-Pools mint long and short tokens, and return funds, to an escrow account. Users can claim their assets, or enter and exit Pools, from escrow.
+Pools mint long and short tokens, and return funds, to an escrow account. Users can claim their assets, or enter and exit Markets, from escrow.
+
+Please note that escrows are Market-specific as each Market is its own independent instance. Hence, you cannot, for example, use the escrow funds of Market X to mint tokens in Market Y.&#x20;
 
 ### Token Value
 

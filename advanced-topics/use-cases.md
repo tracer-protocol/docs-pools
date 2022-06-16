@@ -12,7 +12,7 @@ You can use Perpetual Pools to offset your exposure to the price movement in the
 
 ## Skew Farming
 
-You can enter a Pool position to take advantage of in-kind funding payments. By doing so, you exploit the difference between[ effective leverage](skew.md#effective-leverage) and expected leverage to make risk-adjusted returns.&#x20;
+You can enter a Pool position to take advantage of in-kind funding payments. By doing so, you exploit the difference between[ effective leverage](mechanism/skew.md#effective-leverage) and expected leverage to make risk-adjusted returns.&#x20;
 
 {% hint style="info" %}
 Like the sound of excess risk-adjusted returns? We do too. Here's our guide for skew farming with the V2 contracts: [here](https://tracer.finance/radar/skew-farming-explained)
