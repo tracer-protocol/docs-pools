@@ -14,11 +14,11 @@ From [Balancer](https://arbitrum.balancer.fi/#/) or directly from our [Pools -ap
 
 #### **Why does it take 8 hours to mint my tokens?**
 
-To prevent exploitation of our [new pricing](advanced-topics/mechanism/#pricing).&#x20;
+To prevent exploitation of our [new pricing](advanced-topics/mechanism/#pricing).
 
 **Are there secondary markets for Pool Tokens?**
 
-There are Balancer AMM pools on Arbitrum for pool tokens. Traders can buy and sell leveraged tokens with these pools. As part of the [Liquidity Mining](faq.md#liquidity-mining) program, any trader that stakes BPT (Balancer Pool Token) for these pools will earn TCR. This program aims to bootstrap secondary market liquidity.&#x20;
+There are Balancer AMM pools on Arbitrum for pool tokens. Traders can buy and sell leveraged tokens with these pools. As part of the [Liquidity Mining](faq.md#liquidity-mining) program, any trader that stakes BPT (Balancer Pool Token) for these pools will earn TCR. This program aims to bootstrap secondary market liquidity.
 
 **Why do I have to wait until the next update to get pool tokens/collateral?**
 
@@ -40,15 +40,15 @@ One can think about it as follows: the front-running interval is the amount of t
 
 #### How long can I hold a leveraged token?
 
-Perpetually. However, leveraged tokens suffer from volatility decay. V2's SMA pricing significantly mitigates volatility decay, but you should still monitor your tokens over long periods.&#x20;
+Perpetually. However, leveraged tokens suffer from volatility decay. V2's SMA pricing significantly mitigates volatility decay, but you should still monitor your tokens over long periods.
 
 #### Why has the Pool Token pricing mechanism changed?
 
 The SMA price was introduced to mitigate volatility decay. As v2 is more modular than v1, the original markets can still be redeployed using v2.
 
-#### Where are my tokens?&#x20;
+#### Where are my tokens?
 
-Your tokens are likely still with the Pool. You need to claim them from escrow before they appear in your wallet. If you have claimed and still can't see them, go to [troubleshooting](troubleshooting.md).&#x20;
+Your tokens are likely still with the Pool. You need to claim them from escrow before they appear in your wallet. If you have claimed and still can't see them, go to [troubleshooting](troubleshooting.md).
 
 **How do liquidations work?**
 
@@ -66,9 +66,15 @@ The Voyage markets introduced during the first week use a simple moving average 
 
 **What is the Rebalancing Rate? How does it affect pool token returns?**
 
-The rebalancing rate is an (inadvertent) effect of collateral skew in a pool. If there's an imbalance between long and short side collateral, the effective leverage for each side is polarised.&#x20;
+The rebalancing rate is an (inadvertent) effect of collateral skew in a pool. If there's an imbalance between long and short side collateral, the effective leverage for each side is polarised.
 
 A favourable rebalancing rate presents asymmetric upside for the less collateralised side. Their returns are amplified relative to their losses. For the over collateralised side, returns are minimised relative to their losses.
+
+**What does** "**no liquidations" mean?**
+
+From a mechanism level, there are no liquidations. Unlike in most other leveraged products, your position will not be closed should it fail to meet margin requirements. Even in extreme market conditions, the Pool Tokens will retain some value and there is potential for "bouncing back" and fighting another day. Contrast this with a Perpetual Swap, where, upon failure to meet margin requirements, your position would be closed and there wouldn't another day for your position.
+
+What's important to understand, especially for new users of leveraged products, is that Pool Tokens are _not_ path-independent. For example, a token that drops from $100 to $50 on day 1 is unlikely to return back to $100 on day 2, even if the price movements were -50% and +100% on days 1 and 2, respectively.
 
 ## Liquidity mining
 
@@ -78,25 +84,25 @@ See [Liquidity Mining](advanced-topics/liquidity-mining.md).
 
 #### How do I get rewards?
 
-By [staking](https://pools.tracer.finance/stakepooltoken/) leveraged tokens.&#x20;
+By [staking](https://pools.tracer.finance/stakepooltoken/) leveraged tokens.
 
 ## General
 
 **What is a Perpetual Pool?**
 
-Perpetual Pools is a derivative design using a two-sided pool to allocate collateral to long and short parties. The pool moves collateral between sides per an arbitrary transfer agreement. V1.0 contracts base the transfer agreement on a function called [power leverage](https://pools.old.docs.tracer.finance/perpetual-pools/mechanism-design)**.** This function determines the amount of collateral to move in a leveraged response to a changing price feed. As collateral is moved between the sides, the amount of collateral per share of the pool changes. Pool shares, then, track leveraged exposure to any price feed. These shares are tokenised, creating leveraged long and short tokens.&#x20;
+Perpetual Pools is a derivative design using a two-sided pool to allocate collateral to long and short parties. The pool moves collateral between sides per an arbitrary transfer agreement. V1.0 contracts base the transfer agreement on a function called [power leverage](https://pools.old.docs.tracer.finance/perpetual-pools/mechanism-design)**.** This function determines the amount of collateral to move in a leveraged response to a changing price feed. As collateral is moved between the sides, the amount of collateral per share of the pool changes. Pool shares, then, track leveraged exposure to any price feed. These shares are tokenised, creating leveraged long and short tokens.
 
 **How are Perpetual Pools different from Perpetual Swaps?**
 
-Perpetual Swaps are instruments that aim to track exactly the price feed at all times, forever. The mechanism that ensures the instrument is tracking the price feed is called the funding rate. Funding rates penalise the side which has higher demand.&#x20;
+Perpetual Swaps are instruments that aim to track exactly the price feed at all times, forever. The mechanism that ensures the instrument is tracking the price feed is called the funding rate. Funding rates penalise the side which has higher demand.
 
-In contrast, Perpetual Pools are instruments that magnify exposure to an asset based on the change in its price feed. Long and short shares (tokens) don't aim to track the price. Instead, tokens simply have power leveraged returns. The side which has higher demand pays an implicit rate to the other side in the form of polarised gains.&#x20;
+In contrast, Perpetual Pools are instruments that magnify exposure to an asset based on the change in its price feed. Long and short shares (tokens) don't aim to track the price. Instead, tokens simply have power leveraged returns. The side which has higher demand pays an implicit rate to the other side in the form of polarised gains.
 
 ## Miscellaneous
 
-#### Can I still use the v1 Pools?&#x20;
+#### Can I still use the v1 Pools?
 
-Yes, the pools are still operating. However, they are not shown on the Pools v2 application. Use the toggle on the top bar to switch back to v1. &#x20;
+Yes, the pools are still operating. However, they are not shown on the Pools v2 application. Use the toggle on the top bar to switch back to v1.
 
 **Are Perpetual Pools available only on Arbitrum?**
 
@@ -106,8 +112,8 @@ Perpetual Pools can also be deployed on the Ethereum mainnet. PPv2 is also avail
 
 **How do Pool Tokens differ from Binance and FTX leveraged tokens?**
 
-Binance and FTX's leveraged tokens are reliant on trusted, centralised third parties. They need a party to create the leveraged exposure for their tokens by holding a perpetual swap or lending platform position. Perpetual Pools leveraged tokens are created by a decentralised, trustless system. This system is also simple, affordable and does not have slippage or market liquidity risk.&#x20;
+Binance and FTX's leveraged tokens are reliant on trusted, centralised third parties. They need a party to create the leveraged exposure for their tokens by holding a perpetual swap or lending platform position. Perpetual Pools leveraged tokens are created by a decentralised, trustless system. This system is also simple, affordable and does not have slippage or market liquidity risk.
 
 **What happens if the Index Price goes negative?**
 
-_TL:DR; The market effectively pauses._ Perpetual Pools only accept positive prices. If the Index Price is zero or negative the Pool will emit  a `PriceChangeError` and the rebalances pause until the Index Price returns a positive.
+_TL:DR; The market effectively pauses._ Perpetual Pools only accept positive prices. If the Index Price is zero or negative the Pool will emit a `PriceChangeError` and the rebalances pause until the Index Price returns a positive.
