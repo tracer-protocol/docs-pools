@@ -11,13 +11,9 @@ Need help? To receive support during your build process, connect with the Tracer
 - [Perpetual Pools SDK](https://github.com/tracer-protocol/pools-js)
 - [Perpetual Pools API](https://api.tracer.finance/docs/#/). Please note that the API is currently not production ready. Use at your own risk.
 - [Perpetual Pools Watcher](https://github.com/tracer-protocol/perpetual-pools-v2-pool-watcher)
-- [Perpetual Pools Contract Architecture](../advanced-topics/mechanism/README.md#implementation)
+- [Perpetual Pools Contract Architecture](../../advanced-topics/mechanism/README.md#implementation)
 - [Build your own Tracer bot guide](https://medium.com/tracer-dao/byob-build-your-own-bot-on-tracer-perpetual-pools-v2-a43e88e9d090)
-- [Mainnet and Testnet Contract addresses](../contract-addresses.md)
-
-## Technical Explanations
-
-### Contracts, SDK, and API
+- [Mainnet and Testnet Contract addresses](../../contract-addresses.md)
 
 {% hint style="info" %}
 This part of the Tracer Docs is still incomplete.&#x20;
