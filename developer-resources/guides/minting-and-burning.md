@@ -14,7 +14,7 @@ These are
         LongBurnShortMint, // Burn Long tokens, then instantly mint in same upkeep
         ShortBurnLongMint // Burn Short tokens, then instantly mint in same upkeep
 ```
-Note: You may here the `LongBurnShortMint` and `ShortBurnLongMint` commit types referenced as flip commitments.
+Note: You may hear the `LongBurnShortMint` and `ShortBurnLongMint` commit types referenced as flip commits.
 
 ## Committing
 Minting and burning occurs by users executing a commitment via the Pool commiters [commit function](https://github.com/tracer-protocol/perpetual-pools-contracts/blob/cebd59ce0585d67e99d4db6b814bf192227e4f37/contracts/implementation/PoolCommitter.sol#L308).
@@ -29,6 +29,6 @@ Before committing, the following must occur
 ### Flips (Long Burn Short Mint and Short Burn Long Mint)
 
 ## Parameter Encoding
-Coming Soon
+The commit function takes in a single `bytes32` argument. This means that in order to execute a commitment, all committment parameters must be encoded first.
 
-## Minting
+You may use the [encodeCommitParams](https://github.com/tracer-protocol/perpetual-pools-contracts/blob/cebd59ce0585d67e99d4db6b814bf192227e4f37/contracts/implementation/L2Encoder.sol#L39) function to correctly encode before submitting a commitment.
