@@ -41,6 +41,7 @@
   * [Arbitrum One](tutorials/tutorials/arbitrum-one.md)
   * [Navigating Balancer](tutorials/tutorials/navigating-balancer.md)
   * [Deploying a New Market](tutorials/tutorials/deploying-a-new-market.md)
+  * [Displaying Custom Markets](tutorials/tutorials/deploying-a-new-market-1.md)
 
 ## 🗺 Ecosystem
 
