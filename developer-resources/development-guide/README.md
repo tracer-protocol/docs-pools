@@ -6,7 +6,6 @@ Welcome to the Tracer Development Guide. This page provides links & resources fo
 Need help? To receive support during your build process, connect with the Tracer team through our [Discord](https://discord.gg/TracerDAO).
 {% endhint %}
 
-<<<<<<< HEAD:developer-resources/development-guide.md
 # Quick Links
 - [Perpetual Pools Contracts](https://github.com/tracer-protocol/perpetual-pools-contracts)
 - [Perpetual Pools SDK](https://github.com/tracer-protocol/pools-js)
@@ -15,11 +14,6 @@ Need help? To receive support during your build process, connect with the Tracer
 - [Perpetual Pools Contract Architecture](../advanced-topics/mechanism/README.md#implementation)
 - [Build your own Tracer bot guide](https://medium.com/tracer-dao/byob-build-your-own-bot-on-tracer-perpetual-pools-v2-a43e88e9d090)
 - [Mainnet and Testnet Contract addresses](../contract-addresses.md)
-=======
-## Market Deployment
-
-The easiest way to deploy new markets is by using the [Tracer Factory](../../factory/pools-factory/). It's a no-code tool that allows the same deployment capabilities as using the Perpetual Pools v2 Factory smart contract. Please see [Contract Addresses](../../contract-addresses.md) for the Factory smart contract address.
->>>>>>> b0318138995e29c0bc246c1bb42af90e093a0d61:developer-resources/development-guide/README.md
 
 ## Technical Explanations
 
