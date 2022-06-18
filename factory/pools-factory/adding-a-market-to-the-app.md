@@ -1,6 +1,6 @@
 # Adding a Market to the App
 
-By default, new markets are not shown on the [pools.tracer.finance](https://pools.tracer.finance/) web application. All users can, however, use the markets by interacting with the smart contracts, third-party applications, or by importing the market to the official web application by using the "Display Alternative Pool" functionality on the [Pools](https://pools.tracer.finance/pools/) -page (_see_ [_URL parameters_](../../developer-resources/url-parameters.md)).&#x20;
+By default, new markets are not shown on the [pools.tracer.finance](https://pools.tracer.finance/) web application. All users can, however, use the markets by interacting with the smart contracts, third-party applications, or by importing the market to the official web application by using the "Display Alternative Pool" functionality on the [Pools](https://pools.tracer.finance/pools/) -page (_see_ [_URL parameters_](../../developer-resources/url-parameters.md)).
 
 ## Requesting Default Inclusion to the App
 
@@ -21,7 +21,7 @@ For a new Market to be included in the [pools.tracer.finance](https://pools.trac
 
 The Market needs to fulfil Market Accuracy Criteria (MAC) prior to being considered for default inclusion on the web app:
 
-1. The Market's Name, Symbol, and Metamask Symbol should accurately reflect the Market's Parameters, Oracles, Data Manipulations, and Index Feed used.
+1. The Market's Name, Symbol, Metamask Symbol, Badges, and any other data associated with the Market should accurately reflect the Market's Parameters, Oracles, Data Manipulations, and Index Feed used.
 2. The Market must not be promoted, marketed, or otherwise publicised inaccurately.
 
 Should the Market, at any point, fail to honour an of the MACs it can be removed from the front end, subject to a governance proposal.
@@ -30,7 +30,7 @@ Should the Market, at any point, fail to honour an of the MACs it can be removed
 
 The Market needs to fulfil Market Performance Criteria (MPC) prior to being considered for default inclusion on the web app:
 
-1. The Market must have completed at least two Rebalances succesfully.
+1. The Market must have completed at least two Rebalances successfully.
 2. The Market must have a minimum total value locked of $10,000.00, or equivalent.
 3. The Market must have a valid Keeper.
 4. The Market must only reference oracles that are approved by, or fulfil the criteria set by, the Tracer Indices Council.
