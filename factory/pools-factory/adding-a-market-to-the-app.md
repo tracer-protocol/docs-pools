@@ -22,7 +22,7 @@ For a new Market to be included in the [pools.tracer.finance](https://pools.trac
 
 The Market needs to fulfil Market Accuracy Criteria (MAC) prior to being considered for default inclusion on the web app:
 
-1. The Market's Name, Symbol, Metamask Symbol, Badges, and any other data associated with the Market should accurately reflect the Market's Parameters, Oracles, Data Manipulations, and Index Feed used.
+1. The Market's Name, Symbol, Metamask Symbol, Badges, Icons, and any other data associated with the Market should accurately reflect the Market's Parameters, Oracles, Data Manipulations, and Index Feed used.
 2. The Market must not be promoted, marketed, or otherwise publicised inaccurately.
 
 Should the Market, at any point, fail to honour an of the MACs it can be removed from the front end, subject to a governance proposal.
