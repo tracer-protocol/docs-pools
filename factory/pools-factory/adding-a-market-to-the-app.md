@@ -6,7 +6,7 @@ By default, new markets are not shown on the [pools.tracer.finance](https://pool
 
 Some markets are shown on the front end by default. These markets are either created by the core team and subjected to an internal validation process or have fulfilled a set of criteria and passed a DAO vote. To have your market included on the web application by default, please follow the process defined below:
 
-1. Ensure the Market fulfils data quality criteria set by the Tracer Indices Council.\
+1. Ensure the Market fulfils data quality criteria set by the Tracer Data Council.\
    _(As of June 18, 2022 these criteria have not been rolled out yet. Any verified Chainlink feed (with or without any Data Manipulations using Tracer Indices or Tracer Perpetual Pools contracts) is accepted. For a full list of Chainlink feeds, please see_ [_docs.chain.link_](https://docs.chain.link/docs/arbitrum-price-feeds/)_)_
 2. Ensure the Market fulfils market accuracy criteria (_see_ [_below_](adding-a-market-to-the-app.md#market-accuracy-criteria)).
 3. Ensure the Market fulfils market performance criteria (see [_below_](adding-a-market-to-the-app.md#undefined)).
