@@ -11,9 +11,9 @@
 * [1. Overview](quick-start-guide/1.-overview.md)
 * [2. Connecting to the App](quick-start-guide/2.-connecting-to-the-app.md)
 * [3. Open a Position ('Buy' Page)](quick-start-guide/3.-buying-and-selling.md)
-* [4. Minting and Burning](quick-start-guide/4.-minting-and-burning.md)
-* [5. The Portfolio Page](quick-start-guide/5.-the-portfolio-page.md)
-* [6. Staking Rewards](quick-start-guide/6.-staking-rewards.md)
+* [4. Minting & Burning ('Pools' Page)](quick-start-guide/4.-minting-and-burning.md)
+* [5. View Portfolio ('Portfolio' Page)](quick-start-guide/5.-the-portfolio-page.md)
+* [6. Staking ('Stake' Page)](quick-start-guide/6.-staking-rewards.md)
 
 ## 🧠 Advanced Topics
 
