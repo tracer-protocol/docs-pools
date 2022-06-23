@@ -10,7 +10,7 @@ We recommend testing Perpetual Pools on the testnet before moving on to committi
 
 You can switch Perpetual Pools to testnet mode by clicking the network selector in the top right corner next to your wallet address and choosing Arbitrum Rinkeby. You will be prompted to confirm the network change after which you are now using a testnet instance of the Perpetual Pools.
 
-![Network selector](../.gitbook/assets/image.png)
+![Network selector](<../.gitbook/assets/image (1).png>)
 
 ### Faucet
 
@@ -22,6 +22,6 @@ We recommend using a separate wallet for testing and claiming from the faucet to
 
 ## Useful Community Resources
 
-**Guide to Using Arbitrum Rinkeby Testnet on Metamask **<mark style="color:blue;">**(**</mark>[<mark style="color:blue;">**Medium**</mark>](https://medium.com/@roinevirta/guide-to-using-arbitrum-rinkeby-testnet-on-metamask-e40bb195996f)<mark style="color:blue;">**)**</mark>\
-****Author: _Juuso Roinevirta_\
+**Guide to Using Arbitrum Rinkeby Testnet on Metamask (**[<mark style="color:blue;">**Medium**</mark>](https://medium.com/@roinevirta/guide-to-using-arbitrum-rinkeby-testnet-on-metamask-e40bb195996f)<mark style="color:blue;">**)**</mark>\
+\*\*\*\*Author: _Juuso Roinevirta_\
 Description: A simple step-by-step guide to initialising and using the Arbitrum Rinkeby testnet on Metamask
