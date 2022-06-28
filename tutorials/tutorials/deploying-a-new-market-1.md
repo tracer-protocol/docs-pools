@@ -16,3 +16,7 @@ Head to [https://pools.tracer.finance/pools/](https://pools.tracer.finance/pools
 Enter the address of the custom market you would like to view. If you don't know how to find the address of the market you are after, reach out to our core team on [**Discord**](http://discord.gg/tracerdao), they'll give you a hand.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-28 at 5.02.57 pm.png>)
+
+{% hint style="info" %}
+You can find the address for all of the official markets [here](https://pools.docs.tracer.finance/advanced-topics/markets-arbitrum-one).
+{% endhint %}

@@ -148,5 +148,6 @@ PoolCommitter address: 0x4101704C3177533C8B442413d6874aAe70dd59e
 ```
 
 {% hint style="info" %}
-To get your market added to the front-end, read the guide: ['Displaying Custom Markets' ](https://pools.docs.tracer.finance/tutorials/tutorials/deploying-a-new-market-1)
+To view your market on the app, read the guide:  ['Displaying Custom Markets' ](https://pools.docs.tracer.finance/tutorials/tutorials/deploying-a-new-market-1)\
+To get your market added to the front-end, read the guide:[ 'Adding a Market to the App'](https://pools.docs.tracer.finance/factory/pools-factory/adding-a-market-to-the-app)
 {% endhint %}
