@@ -15,12 +15,58 @@ description: All times & dates UTC.
 #### May – June
 
 {% tabs %}
+{% tab title="Jun 24-30" %}
+**This week's rewards:  TCR**
+
+Emission: Linear
+
+Primary Markets
+
+| Market                 | TCR Emissions |
+| ---------------------- | ------------- |
+| **3-ETH/USD+USDC**     | 30,812.82     |
+| **3-BTC/USD+USDC**     | 30,812.82     |
+| **3-WTI/USD+USDC**     | 30,812.82     |
+| **3-BTC/USD+USDC-12h** | 51,923.08     |
+
+
+
+Secondary Markets (Balancer)&#x20;
+
+| Market                 | TCR Emissions |
+| ---------------------- | ------------- |
+| **3-ETH/USD+USDC**     | 71,896.58     |
+| **3-BTC/USD+USDC**     | 71,896.58     |
+| **3-WTI/USD+USDC**     | 71,896.58     |
+| **3-BTC/USD+USDC-12h** | 121,153.85    |
+{% endtab %}
+
+{% tab title="Jun 17-23" %}
+**This week's rewards: 308,128.2 TCR**
+
+Emission: Linear
+
+Primary Markets
+
+| Market             | TCR Emissions |
+| ------------------ | ------------- |
+| **3-ETH/USD+USDC** | 30,812.82     |
+| **3-BTC/USD+USDC** | 30,812.82     |
+| **3-WTI/USD+USDC** | 30,812.82     |
+
+Secondary Markets (Balancer)&#x20;
+
+| Market             | TCR Emissions |
+| ------------------ | ------------- |
+| **3-ETH/USD+USDC** | 71,896.58     |
+| **3-BTC/USD+USDC** | 71,896.58     |
+| **3-WTI/USD+USDC** | 71,896.58     |
+{% endtab %}
+
 {% tab title="Jun 10 - Jun 16" %}
-#### This week's rewards: 215,820.51 **TCR**
+**This week's rewards: 215,820.51 TCR**
 
-Emission: Linear&#x20;
-
-
+Emission: Linear
 
 Primary Markets
 
@@ -29,8 +75,6 @@ Primary Markets
 | **3-ETH/USD+USDC** | 64,641.03     |
 | **3-BTC/USD+USDC** | 64,641.03     |
 | **3-WTI/USD+USDC** | 86,538.46     |
-
-
 
 Secondary Markets (Balancer)
 
@@ -42,11 +86,9 @@ Secondary Markets (Balancer)
 {% endtab %}
 
 {% tab title="Jun 3 - Jun 9" %}
-#### This week's rewards: 215,820.51 **TCR**
+**This week's rewards: 215,820.51 TCR**
 
-Emission: Linear&#x20;
-
-
+Emission: Linear
 
 Primary Markets
 
@@ -55,8 +97,6 @@ Primary Markets
 | **3-ETH/USD+USDC** | 64,641.03     |
 | **3-BTC/USD+USDC** | 64,641.03     |
 | **3-WTI/USD+USDC** | 86,538.46     |
-
-
 
 Secondary Markets (Balancer)
 
@@ -68,11 +108,9 @@ Secondary Markets (Balancer)
 {% endtab %}
 
 {% tab title="May 27 - Jun 2" %}
-#### This week's rewards: 152,000 **TCR**
+**This week's rewards: 152,000 TCR**
 
-Emission: Linear&#x20;
-
-
+Emission: Linear
 
 Primary Markets
 
@@ -80,8 +118,6 @@ Primary Markets
 | ------------------ | ------------- |
 | **3-ETH/USD+USDC** | 38,000        |
 | **3-BTC/USD+USDC** | 38,000        |
-
-
 
 Secondary Markets (Balancer)
 
@@ -92,11 +128,9 @@ Secondary Markets (Balancer)
 {% endtab %}
 
 {% tab title="May 19 - May 26" %}
-#### This week's rewards: 240,000 **TCR**
+**This week's rewards: 240,000 TCR**
 
 Emission: Linear
-
-
 
 Primary Markets
 
@@ -104,8 +138,6 @@ Primary Markets
 | ------------------ | ------------- |
 | **3-ETH/USD+USDC** | 120,000       |
 | **3-BTC/USD+USDC** | 120,000       |
-
-
 
 Secondary Markets (Balancer)
 
@@ -115,3 +147,6 @@ Secondary Markets (Balancer)
 | **3-BTC/USD+USDC** | N/A           |
 {% endtab %}
 {% endtabs %}
+
+
+
