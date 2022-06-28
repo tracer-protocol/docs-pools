@@ -16,7 +16,7 @@ description: All times & dates UTC.
 
 {% tabs %}
 {% tab title="Jun 24-30" %}
-**This week's rewards:  TCR**
+**This week's rewards: 481,205.13 TCR**
 
 Emission: Linear
 
