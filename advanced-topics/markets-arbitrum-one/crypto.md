@@ -2,6 +2,70 @@
 
 ## Bitcoin
 
+
+
+<details>
+
+<summary>3-BTC/USD+USDC-12h</summary>
+
+:link: _Open in pools.tracer.finance_
+
+**Deployment** **Information**
+
+* Deployment date: `2022-06-28`
+
+**Pricing Data**
+
+* Price feed: `BTC/USD`
+* Leverage (sigmoid): `3`
+* Oracle address: `0xc644E1ba225E2ab0BE407926A177dDc89101A77d` [↗](https://arbiscan.io/address/0xc644e1ba225e2ab0be407926a177ddc89101a77d)
+
+**Settlement Asset**
+
+* Settlement asset: `USDC`
+* Settlement asset address: `0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8` [↗](https://arbiscan.io/address/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8)
+
+**Fees**
+
+* Mint fee: `None`
+* Management fee: `2% per annum`
+* Burn fee: `None`
+
+**Pool Tokens**
+
+* Long token
+  * Symbol: `3L-BTC/USD+USDC-12h`
+  * Metamask Symbol: `3L-BTC-12h`
+  * Token address: `0x5f3723A56D2Bf60bD81bbd4A6D23bC66D200833d` [↗](https://arbiscan.io/address/0x5f3723A56D2Bf60bD81bbd4A6D23bC66D200833d)
+  * Observations: `N/A`
+
+<!---->
+
+* Short token
+  * Symbol: `3S-BTC/USD+USDC-12`
+  * Metamask Symbol: `3S-BTC-12h`
+  * Token address: `0x66B4DCd9944A32C2b0Eac79D029C3B43E9EC8510` [↗](https://arbiscan.io/address/0x66b4dcd9944a32c2b0eac79d029c3b43e9ec8510)
+  * Observations: `N/A`
+
+**Pool Information**
+
+* Rebalance frequency: `12 hours`
+* Front-running interval: `5 minutes`
+* Long token staking farm: `0x3004CC46432522B0AeA30d16aF769B1727aA0c26` [↗](https://arbiscan.io/address/0x3004CC46432522B0AeA30d16aF769B1727aA0c26)
+* Short token staking farm: `0x0896Fd59b574f536751c82B8Dd9fd9466af009aC` [↗](https://arbiscan.io/address/0x0896Fd59b574f536751c82B8Dd9fd9466af009aC)
+* Leveraged Pool: `0x2bfb8aeE6EB2dcCd694f8eCB4C31FdeBfC22b55a` [↗](https://arbiscan.io/address/0x2bfb8aee6eb2dccd694f8ecb4c31fdebfc22b55a)
+* Pool Committer: `0xB03AAc1F8F3152aEA5305BCf1C9bBd1145e3b158` [↗](https://arbiscan.io/address/0xb03aac1f8f3152aea5305bcf1c9bbd1145e3b158)
+
+**Secondary market (Balancer)**
+
+* Pool address: `0xC999678122cbf8A30cb72C53D4BDd72abd96AF88`[↗](https://arbitrum.balancer.fi/#/pool/0xc999678122cbf8a30cb72c53d4bdd72abd96af880001000000000000000000b4)
+
+**Notes**
+
+* N/A
+
+</details>
+
 <details>
 
 <summary>3-BTC/USD+USDC</summary>
@@ -265,10 +329,6 @@
 You can use the Tracer API to query all existing markets [_(see API)_](https://api.tracer.finance/docs/#/). Contact the team on [Discord](https://discord.gg/TracerDAO) to get your market information included on this page.
 {% endhint %}
 
-
-
-
-
 ## _Mainnet Testing Instances_
 
 {% hint style="danger" %}
@@ -398,4 +458,3 @@ _Mainnet Testing Instances are provided for testing purposes only and are deploy
 * N/A
 
 </details>
-
