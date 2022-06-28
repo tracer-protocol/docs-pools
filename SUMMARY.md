@@ -14,6 +14,7 @@
 * [4. Mint & Burn Pool Tokens ('Pools' Page)](quick-start-guide/4.-minting-and-burning.md)
 * [5. View Portfolio ('Portfolio' Page)](quick-start-guide/5.-the-portfolio-page.md)
 * [6. Stake Pool Tokens ('Stake' Page)](quick-start-guide/6.-staking-rewards.md)
+* [7. Provide Liquidity on Balancer & Stake BPTs](quick-start-guide/7.-provide-liquidity-on-balancer-and-stake-bpts.md)
 
 ## 🧠 Advanced Topics
 

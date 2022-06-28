@@ -10,7 +10,7 @@ We recommend testing Perpetual Pools on the testnet before moving on to committi
 
 You can switch Perpetual Pools to testnet mode by clicking the network selector in the top right corner next to your wallet address and choosing Arbitrum Rinkeby. You will be prompted to confirm the network change after which you are now using a testnet instance of the Perpetual Pools.
 
-![Network selector](<../.gitbook/assets/image (1) (1).png>)
+![Network selector](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ### Faucet
 
